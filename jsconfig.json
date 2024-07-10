@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "baseUrl": "./src",
+    
+  },
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"],
+  "exclude": ["node_modules", "**/node_modules", "dist"]
+}
+// file này support vscode nhận diện path dễ hơn

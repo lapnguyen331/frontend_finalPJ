@@ -1,8 +1,10 @@
 import {memo} from 'react';
+import PaymentMethod from "../../component/payment-method/payment.js"
 function HomePage(){
     return (
-        <div>
+        <div className='home-container'>
              <div>trang home</div>
+             <PaymentMethod/>
         </div>
     );
 }
