@@ -1,63 +1,49 @@
-.slider_container {
-  .slick-slider {
-    position: relative;
+.slick-slider {
+  width: 85%;
+  position: relative;
 
-    .slick-list {
-      overflow: hidden;
-      margin: 0 -10px;
-    }
-
-    .slick-track {
-      display: flex;
-      gap: 10px;
-    }
-
-    .slick-prev,
-    .slick-next {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      background-color: #fff;
-      border-radius: 50%;
-      border: 1px solid #ccc;
-      width: 30px;
-      height: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      z-index: 1;
-
-      &:before {
-        display: none;
-      }
-    }
-
-    .slick-prev {
-      left: -40px;
-    }
-
-    .slick-next {
-      right: -40px;
-    }
-
-    .slick-dots {
-      bottom: -30px;
-
-      li button:before {
-        font-size: 12px;
-        color: #000;
-      }
-
-      li.slick-active button:before {
-        color: #000;
-      }
-    }
+  .slick-list {
+    overflow: hidden;
+    margin: 0 -10px;
   }
 
+  .slick-track {
+    display: flex;
+    gap: 10px;
+  }
+  .slick-prev:before, .slick-next:before {
+    color: #4a4ff5;
+  }
+  .slick-prev {
+    left: -40px;
+  }
+
+  .slick-next {
+    right: -40px;
+  }
+
+  .slick-dots {
+    bottom: -30px;
+
+    li button:before {
+      font-size: 10px;
+      color: #4a4ff5;
+    }
+
+    li.slick-active button:before {
+      color: #4a4ff5;
+    }
+  }
+}
+
+.slider-container {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  width: 95%;
   .card {
     height: fit-content;
-    width: 300px;
+    width: 300px !important;
     border: 1px solid gray;
     background: white;
     border-radius: 8px;
@@ -65,7 +51,7 @@
 
     .card_top {
       .wrapImgs {
-        img {
+        .img_other {
           width: 100%;
           object-fit: cover;
           transition: transform 0.3s ease;
@@ -124,15 +110,13 @@
           display: flex;
           align-items: center;
 
-          .ilabel {
-            margin-right: 5px;
-          }
-
           .discounts_price {
-            font-size: 1em;
-            color: green;
-            display: flex;
-            align-items: center;
+            margin-left: auto;
+            font-size: 20px;
+            .idiscount {
+              font-size: 20px;
+              color: #f32c3d;
+            }
           }
         }
 

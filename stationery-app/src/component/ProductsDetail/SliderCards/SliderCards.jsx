@@ -1,8 +1,8 @@
 import React, {useMemo} from 'react';
+import './SliderCardsStyles.scss'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './SliderCardsStyles.scss'
 import { formatPercentage, formatPrices } from "../../../utils";
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
@@ -23,9 +23,9 @@ function SliderCards() {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        // autoplay: true,
-        // speed: 2000,
-        // autoplaySpeed: 4000,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 4000,
     };
     // Sử dụng useMemo để ghi nhớ các ID sản phẩm đã chọn để tránh tính toán lại mỗi lần render
     const selectedProductIds = useMemo(() => getRandomProductIds(productsData, 6), []);
@@ -41,7 +41,7 @@ function SliderCards() {
                     <div className="card" key={product.id}>
                         <div className="card_top">
                             <div className="wrapImgs">
-                                <img src={product.images[0].url} alt={product.images[0].alt} />
+                                <img className="img_other" src={product.images[0].url} alt={product.images[0].alt} />
                             </div>
                             <h3 className="titleProduct">{product.title}</h3>
                         </div>
@@ -74,7 +74,7 @@ function SliderCards() {
                 ))}
             </Slider>
         </div>
-        // </div>
+
     );
 }
 
