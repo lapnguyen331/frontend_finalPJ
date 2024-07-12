@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { PATH } from "./untils/path";
 import MasterLayout from "./layout/masterLayout"
-import HomePage from "./pages/homepage/home"
+import HomePage from "./pages/homepage/homePage"
 import ContactPage from "./pages/contact/contact"
 import AboutPage from "./pages/about/about"
 import PolicyPage from "./pages/policy/policy"
+import ProductPage from './pages/product/productPage';
 
 const renderRouter =() =>{
     const userRouters = [
@@ -28,6 +29,10 @@ const renderRouter =() =>{
             path:PATH.USER.CONTACT,
             component:<ContactPage/>
         },
+        {
+            path:PATH.USER.PRODUCT,
+            component:<ProductPage/>
+        }
     ];
     return (
         <MasterLayout>

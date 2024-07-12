@@ -1,5 +1,5 @@
 import {memo} from 'react';
-import "./homeStyle.scss"
+import "./homePageStyle.scss"
 import PaymentMethod from "./payment-method/payment.js"
 import CustomeCarousel from './carousel/carousel.js';
 import Categogy from './categogy/categogy.js';

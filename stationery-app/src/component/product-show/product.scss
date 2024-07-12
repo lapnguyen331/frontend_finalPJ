@@ -1,0 +1,130 @@
+.card-container{
+    padding: 10px;
+    // width: 300px;
+    // height: 200px;
+    overflow: hidden;
+    flex-basis: 20%;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px 10px 10px 40px;
+    position: relative;
+    .product-card{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        // margin:20px;
+        border: 2px solid #ededed;
+        padding:20px;
+        cursor: pointer;
+        height: 100%;
+        .image-wrap{
+            border-radius: 10px 10px 0 0;
+            position: relative;
+            display: block;
+            .image-thumb{
+                transition: all .4s;
+                text-decoration: none;
+                color: black;
+                position: relative;
+                border-radius: 10px 10px 0 0;
+                .card-image{
+                    position: absolute;
+                    --image-scale: 1;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%) scale(var(--image-scale));
+                    object-fit: contain;
+                    max-width: 100%;
+                    max-height: 100%;
+                    background: transparent;
+                    border-style: none;
+                    vertical-align: middle;
+                }
+            }
+        }
+    
+        .card-detail{
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+            
+            .card-name{
+                text-transform: uppercase;
+                font-weight: bold;
+                margin: 10px 0 5px;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.5;
+                width: 100%;
+                height: 42px;
+                white-space: normal;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                .new-label{
+                    background-color: #EB0000;
+                    display: inline-block;
+                    border-radius: 5px;
+                    padding: 2px 5px;
+                    font-size: 10px;
+                    color: #fff;
+                    margin-right: 5px;
+                }
+                .card-title{
+                    color: #6c757d;
+                }
+    
+            }
+            
+            .card-price, .card-bottom, .card-action{
+                display: flex;
+                flex-direction: row;
+            }
+            .card-price{
+                justify-content: center;
+                .compare-price{
+                    padding-left: 10px;
+                }
+            }
+            .card-bottom{
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 10px;
+                .discount-label{
+                    margin-right: 10px;
+                    position: static;
+                    width: 50px;
+                    height: 32px;
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-color: transparent;
+                    background-image: url(https://file.hstatic.net/1000230347/file/tag-percent_b0f205ed1ad446b3adcf3087f5961d68.png);
+                    padding: 7px 2px;
+                    font-weight: bold;
+                    font-size: 12px;
+                    z-index: 3;
+                    .discount-num{
+                        width: 36px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fff;
+                    }
+                }
+                .card-action{
+                    padding-top: 0;
+                    opacity: 1;
+                    width: calc(100% - 50px);
+                    margin: 0;
+                    padding-left: 10px;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    } 
+}
