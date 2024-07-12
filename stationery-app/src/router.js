@@ -1,14 +1,28 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { PATH } from "./untils/path";
+import MasterLayout from "./layout/masterLayout"
 import HomePage from "./pages/homepage/home"
 import ContactPage from "./pages/contact/contact"
-import MasterLayout from "./layout/masterLayout"
+import AboutPage from "./pages/about/about"
+import PolicyPage from "./pages/policy/policy"
 
 const renderRouter =() =>{
     const userRouters = [
         {
-            path: PATH.USER.HOME,
+            path: "/",
             component: <HomePage/>
+        },
+        {
+            path :PATH.USER.HOME,
+            component: <HomePage/>
+        },
+        {
+            path :PATH.USER.ABOUT,
+            component: <AboutPage/>
+        },
+        {
+            path :PATH.USER.POLICY,
+            component: <PolicyPage/>
         },
         {
             path:PATH.USER.CONTACT,
