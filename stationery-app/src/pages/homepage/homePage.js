@@ -12,7 +12,7 @@ function HomePage(){
                 <CustomeCarousel/>       
              </div>
              <div className='product-wrap'>
-                <ProductList/>
+                {/* // <ProductList /> */}
              </div>
              {/* <PaymentMethod/> */}
         </div>

@@ -2,9 +2,9 @@ import {memo} from 'react';
 import "./productPage.scss"
 import Filter from '../../component/filter/filter';
 import ProductList from '../../component/product-show/productList';
-import Product from '../../component/product-show/product';
+import data from '../../data/producttest.json'
 function ProductPage(){
-    // const data = JSON.parse("../../")
+    const products = JSON.parse(data);
     return (
         <div className='flex-wrap'>
             <div className='filter-wrap'>
@@ -12,31 +12,7 @@ function ProductPage(){
             </div>
             <div className='product-List'>
                <div className='product-container'>
-               <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
+                    <ProductList productList = {data}/>
                </div>
 
             </div>
