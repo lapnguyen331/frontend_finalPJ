@@ -10,34 +10,34 @@ import productsData from "../../../data/Product/productData";
 import { Button } from "@mui/material";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 
-// Hàm tiện ích để lấy một tập hợp ngẫu nhiên các ID sản phẩm
-function getRandomProductIds(products, num) {
-    const shuffled = products.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, num).map(product => product.id);
+function getRandomProducts(num) {
+
+    const productsCopy = productsData.slice();
+
+    const shuffledProducts = productsCopy.sort(() => Math.random() - 0.5);
+
+    const randomProducts = shuffledProducts.slice(0, num);
+
+    return randomProducts;
 }
 
+const randomProducts = getRandomProducts(7);
 
 function SliderCards() {
     const settings = {
         dots: true,
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         autoplay: true,
         speed: 2000,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3000,
     };
-    // Sử dụng useMemo để ghi nhớ các ID sản phẩm đã chọn để tránh tính toán lại mỗi lần render
-    const selectedProductIds = useMemo(() => getRandomProductIds(productsData, 6), []);
-
-    // Lọc các sản phẩm dựa trên các ID đã chọn
-    const selectedProducts = productsData.filter(product => selectedProductIds.includes(product.id));
 
     return (
         <div className="slider-container">
             <Slider {...settings}>
-                {/*{productsData.map((product) => (*/}
-                {selectedProducts.map((product) => (
+                {randomProducts.map((product) => (
                     <div className="card" key={product.id}>
                         <div className="card_top">
                             <div className="wrapImgs">

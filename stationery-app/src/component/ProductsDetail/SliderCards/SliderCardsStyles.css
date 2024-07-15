@@ -4,7 +4,6 @@
 }
 .slick-slider .slick-list {
   overflow: hidden;
-  margin: 0 -10px;
 }
 .slick-slider .slick-track {
   display: flex;
@@ -38,7 +37,6 @@
 }
 .slider-container .card {
   height: fit-content;
-  width: 300px !important;
   border: 1px solid gray;
   background: white;
   border-radius: 8px;
@@ -53,7 +51,7 @@
   cursor: pointer;
 }
 .slider-container .card .card_top .wrapImgs .img_other:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .slider-container .card .card_top .titleProduct {
   color: #666666;

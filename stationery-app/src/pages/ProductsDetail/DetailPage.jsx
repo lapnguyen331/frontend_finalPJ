@@ -9,7 +9,7 @@ import ProductDiscription from "../../component/ProductsDetail/ProductDetailsDes
 import ReviewAndRating from "../../component/ProductsDetail/ReviewAndRating/ReviewAndRating";
 
 
-function DetailPage(props) {
+function DetailPage() {
     const { productId} = useParams();
 
     return (

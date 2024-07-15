@@ -8,7 +8,7 @@ import reviews from "../../../data/Product/Review";
 
 
 function ReviewAndRating({ productId }) {
-    const [reviewsList, setReviewsList] = useState(reviews); // Initialize state with reviews array
+    const [reviewsList, setReviewsList] = useState(reviews);
     const [rating, setRating] = useState(0);
 
 
@@ -19,20 +19,23 @@ function ReviewAndRating({ productId }) {
 
     const handleSubmitReview = (event) => {
         event.preventDefault();
+        //lấy dữ liệu từ form
         const formData = new FormData(event.target);
+
         const newReview = {
             id: reviewsList.length + 1,
             text: formData.get('review'),
             productID: productId,
             email: formData.get('email'),
             rating: rating,
-            state: [],
         };
-        setReviewsList([...reviewsList, newReview]); // Update reviewsList state with new review
-        reviews.push(newReview); // Update original reviews array in Review.js
-        setRating(0); // Reset rating after submit
+        //cập nhật danh sách đánh giá
+        setReviewsList([...reviewsList, newReview]);
+
+        setRating(0)
         event.target.reset();
     };
+
 
 
     const renderReviews = () => {
@@ -63,6 +66,7 @@ function ReviewAndRating({ productId }) {
             <div className="write_review">
                 <h2>Viết đánh giá sản phẩm</h2>
                 <form onSubmit={handleSubmitReview} className="review_form">
+                    <label> Email của bạn:</label>
                     <input
                         required
                         type="email"
@@ -70,6 +74,7 @@ function ReviewAndRating({ productId }) {
                         name="email"
                         placeholder="Email"
                     />
+                    <label> Viết đánh giá: </label>
                     <textarea
                         required
                         id="review"

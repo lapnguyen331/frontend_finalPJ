@@ -13,8 +13,9 @@ function ProductsFeature(props) {
         <div>
             products Feature
             <Routes>
-                <Route path={'/'} element={<ListPage/>}> </Route>
-                <Route path={'/:productid'} element={<DetailPage/>}> </Route>
+                {/*<Route path={'/'} element={<ListPage/>}> </Route>*/}
+                <Route path={'/products'} element={<ListPage/>}> </Route>
+                <Route path={'/products/:productid'} element={<DetailPage/>}> </Route>
             </Routes>
 
         </div>
