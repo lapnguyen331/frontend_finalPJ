@@ -11,7 +11,7 @@ import ReviewAndRating from "../../component/ProductsDetail/ReviewAndRating/Revi
 
 function DetailPage() {
     const { productId} = useParams();
-
+    console.log("Tại trang product detail Product ID:"+ productId);
     return (
         <div className="pdetails_main">
             <div className="pdetails_container">

@@ -11,6 +11,8 @@ import StarOutlineOutlinedIcon from '@mui/icons-material/StarOutlineOutlined';
 import CardGiftcardOutlinedIcon from '@mui/icons-material/CardGiftcardOutlined';
 import LocalActivityOutlinedIcon from '@mui/icons-material/LocalActivityOutlined';
 function ProductsDetailsInfo({ productId }) {
+    console.log("Tại component product detail Product ID:"+ productId);
+
     // Tìm sản phẩm trong danh sách dựa vào productId
     const product = productsData.find(item => item.id === productId);
 

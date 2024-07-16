@@ -6,18 +6,25 @@ import {Button} from "@mui/material";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import productsData from "../../../data/Product/productData";
+import { Link } from 'react-router-dom';
+import { PATH } from "../../../utils/path";
+
 
 function ProductItem({ productid }) {
     const product = productsData.find(item => item.id === productid);
+
     return (
         <div className="card" key={product.id}>
             <div className="card_top">
                 <div className="wrapImgs">
                     <img className="img_other" src={product.images[0].url} alt={product.images[0].alt}/>
                 </div>
-                <h3 className="titleProduct">{product.title}</h3>
             </div>
             <div className="card_bottom">
+                <h3 className="titleProduct">
+                    <Link to={PATH.USER.PRODUCTDETAIL.replace(':productId',product.id)}>{product.title}</Link>
+                </h3>
+
                 <div className="price_container">
                                 <span className="prices">
                                     {formatPrices(product.price)}
@@ -31,7 +38,7 @@ function ProductItem({ productid }) {
                         {product.discount > 0 && (
                             <span className="discounts_price">
                                     -{formatPercentage(product.discount)}
-                                <LocalOfferIcon className="idiscount"/>
+                                {/* <LocalOfferIcon className="idiscount"/> */}
 
                             </span>
                         )}

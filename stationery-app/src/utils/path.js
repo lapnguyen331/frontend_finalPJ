@@ -7,7 +7,8 @@ export const PATH ={
         CONTACT:"contact",
         ABOUT:"about",
         POLICY:"policy",
-        PRODUCT:"product"
+        LISTPRODUCT:"products",
+        PRODUCTDETAIL:"/products/:productId"
 
     },
 };
