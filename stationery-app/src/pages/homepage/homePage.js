@@ -14,7 +14,7 @@ function HomePage(){
              <div className='product-wrap'>
                 {/* // <ProductList /> */}
              </div>
-             {/* <PaymentMethod/> */}
+             <PaymentMethod/>
         </div>
     );
 }
