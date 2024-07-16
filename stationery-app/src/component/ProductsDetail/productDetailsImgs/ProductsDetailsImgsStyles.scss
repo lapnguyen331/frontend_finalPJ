@@ -1,0 +1,23 @@
+.imgs_container {
+  gap: 10px;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  display: flex;
+  .img_large{
+
+    .large_imgDetail {
+      .imgDetail_large {
+        width: 360px;
+        height: 360px;
+      }
+    }
+  }
+  .list_imgs{
+    gap: 22px;
+    display: flex;
+    .imglist {
+      width: 74px;
+      height: 74px;
+    }
+  }
+}
