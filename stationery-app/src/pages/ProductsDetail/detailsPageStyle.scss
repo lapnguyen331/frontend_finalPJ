@@ -1,4 +1,5 @@
 .pdetails_main {
+
   .pdetails_container {
     background-color: #f0f0f0;
     display: flex;
@@ -30,11 +31,21 @@
     }
 
     .card2_container {
-height: 520px !important;
+      height: 520px !important;
     }
+
     .Label_sameTypes {
       font-weight: bold;
       text-align: left;
     }
+
+  }
+
+  .card5_container {
+    width: 100%;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }

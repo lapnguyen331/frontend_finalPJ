@@ -7,6 +7,7 @@ import ProductsDetailsInfo from "../../component/ProductsDetail/ProductDetailInf
 import SliderCards from "../../component/ProductsDetail/SliderCards/SliderCards";
 import ProductDiscription from "../../component/ProductsDetail/ProductDetailsDescription/ProductDiscription";
 import ReviewAndRating from "../../component/ProductsDetail/ReviewAndRating/ReviewAndRating";
+import Slider from "../../component/Slider/Slider";
 
 
 function DetailPage() {
@@ -20,11 +21,11 @@ function DetailPage() {
 
                     <div className="rows">
                         <div className="pdetails_imgs">
-                            <ProductsDetailsImgs productId={productId} />
+                            <ProductsDetailsImgs productId={productId}/>
                         </div>
 
                         <div className="pdetails_info">
-                            <ProductsDetailsInfo productId={productId} />
+                            <ProductsDetailsInfo productId={productId}/>
                         </div>
                     </div>
 
@@ -42,7 +43,13 @@ function DetailPage() {
                 <div className="card4_container">
                     <ReviewAndRating productId={productId}/>
                 </div>
+
             </div>
+
+            <div className="card5_container">
+                <Slider/>
+            </div>
+
         </div>
     );
 

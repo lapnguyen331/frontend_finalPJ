@@ -10,7 +10,7 @@ import ProductsBrands from "../../component/ProductList/SideBar/ProductsBrands/P
 
 function ListPage() {
     const [currentPage, setCurrentPage] = useState(1);
-    const showItems = 2;
+    const showItems = 10;
     const lastIndex = currentPage * showItems;
     const firstIndex = lastIndex - showItems;
     // const currentPosts = productsData.slice(firstIndex, lastIndex);

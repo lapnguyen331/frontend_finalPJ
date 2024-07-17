@@ -5,13 +5,17 @@ function ProductDiscription({ productId }) {
 
     const name = product.name;
     const descript = product.descript;
-    const characteristic = product.characteristic.split('\n\n-').map((item, index) => (
-        <span key={index}>{item.trim() ? `- ${item.trim()}` : ''}<br /></span>
-    ));
-    const improvement = product.improvement.split('\n\n-').map((item, index) => (
-        <span key={index}>{item.trim() ? `- ${item.trim()}` : ''}<br /></span>
-    ));
+    const characteristic = product.characteristic
+        ? product.characteristic.split('\n\n-').map((item, index) => (
+            <span key={index}>{item.trim() ? `- ${item.trim()}` : ''}<br /></span>
+        ))
+        : null;
 
+    const improvement = product.improvement
+        ? product.improvement.split('\n\n-').map((item, index) => (
+            <span key={index}>{item.trim() ? `- ${item.trim()}` : ''}<br /></span>
+        ))
+        : null;
     return (
         <div className="description_container">
             <h2> Mô tả sản phẩm</h2>
@@ -20,14 +24,19 @@ function ProductDiscription({ productId }) {
                     <h4 className="label"> Tên sản phẩm: </h4>
                     <span>  {name}</span>
                 </div>
+
+                {product.category !== 'books' && characteristic && (
                 <div className="characteristic_p">
                     <h4 className="label">Đặc điểm sản phẩm: </h4>
                     <span> {characteristic}</span>
                 </div>
+                )}
+                {product.category !== 'books' && improvement && (
                 <div className="improvement_p">
                     <h4 className="label"> Cải tiến: </h4>
                     <span> {improvement}</span>
                 </div>
+                )}
                 <p>{descript}</p>
             </div>
 
