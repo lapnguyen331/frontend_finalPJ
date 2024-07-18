@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createTheme, ThemeProvider} from "@mui/material";
-
+import {BrowserRouter} from "react-router-dom"
+import RouterCustom from './router';
+import './style/style.scss'
 const theme = createTheme({
     root: {
 
