@@ -13,7 +13,9 @@ display: flex;
     .wrapImgs {
       padding-bottom: 10px;
       .img_other {
-        height: 298.41px;
+        // height: 298.41px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
         width: 100%;
