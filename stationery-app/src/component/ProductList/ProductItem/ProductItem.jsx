@@ -19,6 +19,7 @@ function ProductItem({ productid }) {
                 </div>
                 <h3 className="titleProduct">
                     <Link to={PATH.USER.PRODUCTDETAIL.replace(':productId',product.id)}>{product.title}</Link>
+                    </h3>
             </div>
             <div className="card_bottom">
                 <div className="price_container">
