@@ -89,8 +89,17 @@ display: flex;
         background-image: url(	https://file.hstatic.net/1000230347/file/tag-percent_b0f205ed1ad446b3adcf3087f5961d68.png);
 
         .discounts_price {
-          margin-left: auto;
+          // margin-left: auto;
+          // font-size: 20px;
+           padding-left: 15px;
+          width: 36px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: #ffffff;
           font-size: 20px;
+          font-weight: 700;
           .idiscount {
             font-size: 20px;
             color: #f32c3d;
