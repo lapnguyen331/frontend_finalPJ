@@ -6,6 +6,8 @@ import {Button} from "@mui/material";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import productsData from "../../../data/Product/productData";
+import { Link } from 'react-router-dom';
+import { PATH } from "../../../utils/path";
 
 function ProductItem({ productid }) {
     const product = productsData.find(item => item.id === productid);
