@@ -74,8 +74,19 @@ display: flex;
       flex-direction: row;
 
       .others_discounts {
-        display: flex;
-        align-items: center;
+        // display: flex;
+        // align-items: center;
+         margin-left: 10px;
+
+        margin-right: 10px;
+        position: static;
+        width: 55px;
+        height: 32px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-image: url(	https://file.hstatic.net/1000230347/file/tag-percent_b0f205ed1ad446b3adcf3087f5961d68.png);
 
         .discounts_price {
           margin-left: auto;
