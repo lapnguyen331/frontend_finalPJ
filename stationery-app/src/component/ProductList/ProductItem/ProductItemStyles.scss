@@ -4,7 +4,11 @@
   background: white;
   border-radius: 8px;
   cursor: pointer;
-
+display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
   .card_top {
     .wrapImgs {
       .img_other {
