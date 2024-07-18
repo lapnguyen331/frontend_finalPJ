@@ -37,7 +37,7 @@ function ProductItem({ productid }) {
                         {product.discount > 0 && (
                             <span className="discounts_price">
                                     -{formatPercentage(product.discount)}
-                                <LocalOfferIcon className="idiscount"/>
+{/*                                 <LocalOfferIcon className="idiscount"/> */}
 
                             </span>
                         )}
