@@ -47,14 +47,14 @@ display: flex;
     }
   }
 
-  .card_bottom {
-    margin: 10px 20px;
+ 
 
     .price_container {
       display: flex;
       align-items: center;
       gap: 10px;
-
+       justify-content: center;
+      margin-bottom: 10px;
       .prices {
         font-size: 18px;
         color: #2659f3;
