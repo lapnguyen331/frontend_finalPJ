@@ -17,7 +17,7 @@ function ProductItem({ productid }) {
                 <div className="wrapImgs">
                     <img className="img_other" src={product.images[0].url} alt={product.images[0].alt}/>
                 </div>
-                 </div>
+{/*                  </div> */}
             <div className="card_bottom">
                 <h3 className="titleProduct">
                     <Link to={PATH.USER.PRODUCTDETAIL.replace(':productId',product.id)}>{product.title}</Link>
