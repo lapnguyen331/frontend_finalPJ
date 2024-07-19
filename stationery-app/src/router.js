@@ -7,6 +7,7 @@ import AboutPage from "./pages/about/about"
 import PolicyPage from "./pages/policy/policy"
 import ListPage from './pages/ListProducts/ListPage';
 import DetailPage from './pages/ProductsDetail/DetailPage';
+import CheckoutPage from "./pages/checkout/CheckoutPage";
 
 const renderRouter =() =>{
     const userRouters = [
@@ -38,7 +39,11 @@ const renderRouter =() =>{
         {
             path : PATH.USER.PRODUCTDETAIL,
             component:<DetailPage/>
-        }
+        },
+        {
+            path:PATH.USER.CHECKOUT,
+            component: <CheckoutPage/>
+        },
     ];
 
     return (
