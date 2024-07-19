@@ -45,7 +45,7 @@ const renderRouter =() =>{
             component:<DetailPage/>
         },
 
-        { path: PATH.USER.CART, component: <CartPage /> } // Add CartPage route
+        { path: PATH.USER.CART, component: <CartPage /> }, // Add CartPage route
 
 
         {

@@ -9,7 +9,7 @@ export const PATH ={
         LISTPRODUCT:"products",
         PRODUCTDETAIL:"/products/:productId",
 
-        CART: "cart"
+        CART: "cart",
 
 
         CHECKOUT: "checkout"
