@@ -1,0 +1,30 @@
+.cart_main {
+  padding: 20px;
+}
+
+.cart_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.item_details {
+  flex: 1;
+}
+
+.item_controls {
+  display: flex;
+  align-items: center;
+}
+
+.cart_total {
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}

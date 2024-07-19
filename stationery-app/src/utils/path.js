@@ -3,11 +3,16 @@ export const PATH ={
     USER:{
         HOME:"home",
         PRODUCTDE:"product-detail",
-        CONTACT:"contact",
+        // CONTACT:"contact",
         ABOUT:"about",
         POLICY:"policy",
         LISTPRODUCT:"products",
         PRODUCTDETAIL:"/products/:productId",
+
+        CART: "cart",
+
+
         CHECKOUT: "checkout"
+
     },
 };
