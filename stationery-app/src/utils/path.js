@@ -4,11 +4,12 @@ export const PATH ={
         HOME:"home",
         CONTACT:"contact",
         PRODUCTDE:"product-detail",
-        CONTACT:"contact",
+        // CONTACT:"contact",
         ABOUT:"about",
         POLICY:"policy",
         LISTPRODUCT:"products",
-        PRODUCTDETAIL:"/products/:productId"
+        PRODUCTDETAIL:"/products/:productId",
+        CART: "cart"
 
     },
 };

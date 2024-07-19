@@ -7,6 +7,7 @@ import AboutPage from "./pages/about/about"
 import PolicyPage from "./pages/policy/policy"
 import ListPage from './pages/ListProducts/ListPage';
 import DetailPage from './pages/ProductsDetail/DetailPage';
+import CartPage from './pages/CartPage/CartPage'; // Import CartPage
 
 const renderRouter =() =>{
     const userRouters = [
@@ -38,7 +39,9 @@ const renderRouter =() =>{
         {
             path : PATH.USER.PRODUCTDETAIL,
             component:<DetailPage/>
-        }
+        },
+        { path: PATH.USER.CART, component: <CartPage /> } // Add CartPage route
+
     ];
 
     return (
