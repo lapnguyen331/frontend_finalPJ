@@ -3,6 +3,7 @@ import "./homePageStyle.scss"
 import PaymentMethod from "./payment-method/payment.js"
 import CustomeCarousel from './carousel/carousel.js';
 import Categogy from './categogy/categogy.js';
+import SliderPage from "../sliderBrands/SliderPage";
 function HomePage(){
     return (
         <div className='home-container'>
@@ -13,6 +14,7 @@ function HomePage(){
              <div className='product-wrap'>
                 {/* // <ProductList /> */}
              </div>
+            <SliderPage/>
              <PaymentMethod/>
         </div>
     );

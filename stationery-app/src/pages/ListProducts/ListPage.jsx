@@ -7,6 +7,7 @@ import ProductPrices from "../../component/ProductList/SideBar/ProductsPrices/Pr
 import ProductsColors from "../../component/ProductList/SideBar/ProductsColors/ProductsColors";
 import ProductsTypes from "../../component/ProductList/SideBar/ProductsTypes/ProductsTypes";
 import ProductsBrands from "../../component/ProductList/SideBar/ProductsBrands/ProductsBrands";
+import SliderPage from "../sliderBrands/SliderPage";
 
 function ListPage() {
     const [currentPage, setCurrentPage] = useState(1);
@@ -158,6 +159,7 @@ function ListPage() {
     };
 
     return (
+<div>
 
         <div className="listP_container">
 
@@ -199,9 +201,9 @@ function ListPage() {
 
             </div>
 
-
         </div>
-
+    <SliderPage/>
+</div>
     );
 }
 
