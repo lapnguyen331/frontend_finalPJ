@@ -7,6 +7,7 @@ import ProductsDetailsInfo from "../../component/ProductsDetail/ProductDetailInf
 import SliderCards from "../../component/ProductsDetail/SliderCards/SliderCards";
 import ProductDiscription from "../../component/ProductsDetail/ProductDetailsDescription/ProductDiscription";
 import ReviewAndRating from "../../component/ProductsDetail/ReviewAndRating/ReviewAndRating";
+import SliderPage from "../sliderBrands/SliderPage";
 
 
 function DetailPage() {
@@ -42,7 +43,9 @@ function DetailPage() {
                 <div className="card4_container">
                     <ReviewAndRating productId={productId}/>
                 </div>
+
             </div>
+            <SliderPage/>
         </div>
     );
 
