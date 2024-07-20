@@ -1,6 +1,7 @@
 import {memo} from "react";
 import CheckoutInfo from "../../component/checkOut/CheckoutInfo/CheckoutInfo";
 import './CheckoutPageStyles.scss'
+import CheckoutRight from "../../component/checkOut/CheckoutRight/CheckoutRight";
 function CheckoutPage() {
     return (
 
@@ -10,7 +11,7 @@ function CheckoutPage() {
             </div>
 
             <div className="checkOut_right">
-
+<CheckoutRight/>
             </div>
 
         </div>
