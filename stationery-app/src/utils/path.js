@@ -2,16 +2,14 @@
 export const PATH ={
     USER:{
         HOME:"home",
+        //CONTACT:"contact",
         PRODUCTDE:"product-detail",
-        // CONTACT:"contact",
+        CONTACT:"contact",
         ABOUT:"about",
         POLICY:"policy",
         LISTPRODUCT:"products",
         PRODUCTDETAIL:"/products/:productId",
-
         CART: "cart",
-
-
         CHECKOUT: "checkout"
 
     },
