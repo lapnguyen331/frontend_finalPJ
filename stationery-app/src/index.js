@@ -18,6 +18,7 @@ root.render(
     {/* <App /> */}
     <BrowserRouter>
       <RouterCustom/>
+      {/* check */}
     </BrowserRouter>
   </React.StrictMode>
     // <React.StrictMode>
