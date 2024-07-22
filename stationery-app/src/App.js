@@ -10,15 +10,7 @@ function App() {
   
    
   return (
-        // <BrowserRouter>
-        //   <Routes>
-        //     {/*<Route path={'/products'} element={<ProductsFeature/>}> </Route>*/}
-        //     <Route path={'/products/:productId'} element={<DetailPage/>}> </Route>
-        //     <Route path={'/products'} element={<ListPage/>}> </Route>
-        //     <Route path={'/cart'} element={<CartPage/>}> </Route> {/* Add the CartPage route */}
-
-        //   </Routes>
-        // </BrowserRouter>
+  
       <BrowserRouter>
         <RouterCustom/>
       </BrowserRouter>

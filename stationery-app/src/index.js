@@ -23,19 +23,7 @@ root.render(
        <ToastContainer position="top-right" autoClose={1500} />
     </Provider>,
   </React.StrictMode>
-  // <React.StrictMode>
-  //   <Context>
-  //     <BrowserRouter>
-  //       <RouterCustom/>
-  //       {/* check */}
-  //     </BrowserRouter>
-  //   </Context>    
-  // </React.StrictMode>
-    // <React.StrictMode>
-    //     <ThemeProvider theme={theme}>
-    //         <App />
-    //     </ThemeProvider>
-    // </React.StrictMode>
+  
 );
 
 
