@@ -11,6 +11,6 @@ export const PATH ={
         PRODUCTDETAIL:"/products/:productId",
         CART: "cart",
         CHECKOUT: "checkout"
-
+        
     },
 };

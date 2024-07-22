@@ -10,7 +10,16 @@ import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined
 import StarOutlineOutlinedIcon from '@mui/icons-material/StarOutlineOutlined';
 import CardGiftcardOutlinedIcon from '@mui/icons-material/CardGiftcardOutlined';
 import LocalActivityOutlinedIcon from '@mui/icons-material/LocalActivityOutlined';
+import { useDispatch } from "react-redux";
+import {addToCart} from '../../../redux/CartSlice'
+import { useNavigate } from 'react-router-dom';
+
 function ProductsDetailsInfo({ productId }) {
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+    const handleCheckout = () => {
+        navigate('/checkout'); // Chuyển hướng đến trang thanh toán
+    };
     console.log("Tại component product detail Product ID:"+ productId);
 
     // Tìm sản phẩm trong danh sách dựa vào productId
@@ -51,7 +60,10 @@ function ProductsDetailsInfo({ productId }) {
                 });
         }
     };
-
+        // Tạo một ID duy nhất cho sản phẩm (có thể sử dụng uuid hoặc đơn giản là Date.now)
+        const handleAddToCart = (prop,propid,quan) => {
+            dispatch(addToCart({ ...prop,sid:propid, quantity: quan })); // Bạn có thể thay đổi quantity theo ý muốn
+        };
 
     return (
         <div className="info_container">
@@ -114,14 +126,14 @@ function ProductsDetailsInfo({ productId }) {
 
                     <div className="left_4">
                         <div className="add_Cart">
-                            <Button className="btn_cart">
+                            <Button className="btn_cart" onClick={() =>handleAddToCart(product,productId,quantity)}>
                                 <ShoppingCartOutlinedIcon className="icart"/>
                                 <span className="cart">Thêm vào giỏ hàng</span>
                             </Button>
 
                         </div>
                         <div className="buy_now">
-                            <Button className="btn_buy">
+                            <Button className="btn_buy" onClick={handleCheckout}>
                                 <span>Mua ngay</span>
                             </Button>
                         </div>

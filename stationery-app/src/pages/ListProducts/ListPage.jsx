@@ -8,10 +8,14 @@ import ProductsColors from "../../component/ProductList/SideBar/ProductsColors/P
 import ProductsTypes from "../../component/ProductList/SideBar/ProductsTypes/ProductsTypes";
 import ProductsBrands from "../../component/ProductList/SideBar/ProductsBrands/ProductsBrands";
 import SliderPage from "../sliderBrands/SliderPage";
+import { useLocation } from "react-router-dom";
 
 function ListPage() {
+    const location = useLocation();
+    const queryParams = new URLSearchParams(location.search);
+
     const [currentPage, setCurrentPage] = useState(1);
-    const showItems = 2;
+    const showItems = 12;
     const lastIndex = currentPage * showItems;
     const firstIndex = lastIndex - showItems;
     // const currentPosts = productsData.slice(firstIndex, lastIndex);
@@ -53,6 +57,8 @@ function ListPage() {
     const [selectedColors, setSelectedColors] = useState([]);
     const [selectedPrices, setSelectedPrices] = useState([]);
     const [selectedCategories, setSelectedCategories] = useState([]);
+    const [selectedCategogyID, setSelectedCategogyID] = useState([]);
+
     const [selectedBrands, setSelectedBrands] = useState([]);
 
     // Filter function
@@ -84,10 +90,16 @@ function ListPage() {
                 });
             });
         }
-
+        const selectedCategories = queryParams.getAll("categogy");
         if (selectedCategories.length > 0) {
             filteredItems = filteredItems.filter(product =>
                 selectedCategories.some(category => product.category && product.category.includes(category))
+            );
+        }
+        const selectedCategogyID = queryParams.getAll("categogy");
+        if (selectedCategogyID.length > 0) {
+            filteredItems = filteredItems.filter(product =>
+                selectedCategogyID.some(categogyID => product.categogyID && product.categogyID.includes(categogyID))
             );
         }
 
@@ -103,8 +115,8 @@ function ListPage() {
 
     useEffect(() => {
         filterItems();
-    }, [selectedColors, selectedPrices, selectedCategories, selectedBrands]);
-
+    }, [selectedColors, selectedPrices, selectedCategories, selectedCategogyID,selectedBrands]);
+    
     // Handle change functions
     const handleColorChange = (event) => {
         const value = event.target.value;
@@ -144,6 +156,18 @@ function ListPage() {
             );
         }
     };
+    const handleCategoryIDChange = (event) => {
+        const value = event.target.value;
+        if (value === "all") {
+            setSelectedCategogyID([]);
+        } else {
+            setSelectedCategogyID(prevCategories =>
+                prevCategories.includes(value)
+                    ? prevCategories.filter(categogyID => categogyID !== value)
+                    : [...prevCategories, value]
+            );
+        }
+    };
 
     const handleBrandChange = (event) => {
         const value = event.target.value;
@@ -165,7 +189,7 @@ function ListPage() {
 
             <div className="listP_left">
                 <ProductsBrands handleChange={handleBrandChange}/>
-                <ProductsTypes handleChange={handleCategoryChange}/>
+                <ProductsTypes handleChange={handleCategoryChange} />
                 <ProductPrices  handleChange={handlePriceChange}/>
                 <ProductsColors handleChange={handleColorChange}/>
             </div>

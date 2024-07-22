@@ -67,7 +67,9 @@ function CheckoutInfo() {
             ward: ''
         }));
     }, [formState.district]);
-
+    // useEffect(() => {
+    //     onUserInfoChange(formState);
+    // }, [formState, onUserInfoChange]);
     const handleChange = (e) => {
         const {name, value} = e.target;
         setFormState({...formState, [name]: value});
@@ -75,9 +77,7 @@ function CheckoutInfo() {
     return (
         <div className="checkOutInfo_main">
             <div className="checkOutInfo_header">
-                <a href="">
-                    <h1 className="logo_label"> Thiên Long Shop</h1>
-                </a>
+                
                 <ul className="sumary_header">
                     <li className="item"><a href=""> Giỏ hàng </a></li>
                     <li className="item"> Thông tin giao hàng</li>
@@ -89,15 +89,7 @@ function CheckoutInfo() {
 
                 <div className="checkOutForm_container">
                     <h2 className="form_title">Thông tin giao hàng</h2>
-                    <div className="cus_info">
-                        <div className="cus_avatar">
-                            <AccountBoxIcon/>
-                        </div>
-                        <div className="cusInfo_wrap">
-                            <p className="cus_text"> User (21130user@st.hcmuaf.edu.vn)</p>
-                            <p><a href=""> Đăng xuất</a></p>
-                        </div>
-                    </div>
+                 
 
                     <div className="form_info">
                         <div className="info_input">

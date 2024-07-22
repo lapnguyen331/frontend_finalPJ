@@ -1,15 +1,16 @@
 import React from 'react';
 import './ProductsTypes.scss'
 import InputCheckBox from "../inputCheckBox/InputCheckBox";
+import categogy from '../../../../pages/homepage/categogy/categogy';
 
 function ProductsTypes({handleChange}) {
 
     const typesOptions = [
-        {classnames: "pens", value: "pens", title: "Bút"},
-        {classnames: "books", value: "books", title: "Sách"},
-        {classnames: "notes", value: "notes", title: "Sổ"},
-        {classnames: "papers", value: "papers", title: "Giấy"},
-        {classnames: "others", value: "others", title: "Khác"},
+        {classnames: "pens", categogyID :"2",value: "pens", title: "Bút"},
+        {classnames: "books",categogyId :"5", value: "books", title: "Sách"},
+        {classnames: "notes",categogyID :"4", value: "notes", title: "Sổ"},
+        {classnames: "papers",categogyID :"1", value: "papers", title: "Giấy"},
+        {classnames: "others",categogyID :"3", value: "others", title: "Khác"},
     ];
 
     return (
@@ -26,6 +27,7 @@ function ProductsTypes({handleChange}) {
         <InputCheckBox
             key={type.value}
             classnames={type.classnames}
+            categogyID={type.categogyID}
             name="types"
             value={type.value}
             title={type.title}

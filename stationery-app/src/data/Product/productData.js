@@ -3,7 +3,7 @@ const productsData = [
     {
         "id": "600022385",
         "name": "Ream giấy A4",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "IK Copy là sự lựa chọn thích hợp cho mọi nhu cầu sử dụng. Thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -56,9 +56,168 @@ const productsData = [
         ]
     },
     {
+        "id": "60002101",
+        "name": "Giấy in A4 mịn",
+        "category": "papers",
+        "categoryID": 1,
+        "characteristic": "- Bề mặt giấy mịn.\n\n- Khả năng chống gợn sóng và xước tốt.\n\n- Không tách lớp, không lem chữ in.\n\n- Màu trắng đồng đều.",
+        "improvement": "- Tăng độ dày và cứng giấy.\n\n- Cải thiện độ chắn sáng và độ mịn.\n\n- In hình ảnh sắc nét, không bị nhòe khi in hai mặt.",
+        "descript": "Giấy in A4 mịn là sự lựa chọn lý tưởng cho các máy in tốc độ cao, đảm bảo cho bản in rõ nét và không bị kẹt giấy. Đây là lựa chọn lý tưởng cho văn phòng và các nhu cầu in ấn chuyên nghiệp.",
+        "title": "Giấy in A4 mịn chất lượng cao (500 tờ)",
+        "brand": "OfficeMate",
+        "brandType": "standard",
+        "price": 75000,
+        "salePrice": 75000,
+        "discount": 0.0,
+        "images": [
+            {
+                "url": "https://product.hstatic.net/1000230347/product/ik_natural-02_6f610eb42a7b4b1b9b9a4f2d98e66b22_1024x1024.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/ik_natural-02_2_e85174958715490296987bb82a529c3e_1024x1024.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/ik_natural-02_3_91b33044e1344a70abc4b429d7695083_1024x1024.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_13_8f42bbb15003441dbc09c536d2d7a589.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_11-2_5bf0b18e76a741649bfd1a528d125f3a.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_12_fbc96e34731b4aa09e00fa91e8492043.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_10_copy_1cfbd17069234cf5bc0ec5d0fd406069.jpg",
+                "alt": ""
+            }
+        ],
+        "colors": ["white", "green"],
+        "status": [
+            {
+                "state": "còn hàng",
+                "description": "Sản phẩm hiện có sẵn trong kho."
+            }
+        ]
+    },
+    {
+        "id": "60002102",
+        "name": "Giấy in A4 mượt mà",
+        "category": "papers",
+        "categoryID": 1,
+        "characteristic": "- Bề mặt giấy mượt mà.\n\n- Khả năng chống gợn sóng và xước tốt.\n\n- Không tách lớp, không lem chữ in.\n\n- Màu trắng đồng đều.",
+        "improvement": "- Tăng độ dày và cứng giấy.\n\n- Cải thiện độ chắn sáng và độ mịn.\n\n- In hình ảnh sắc nét, không bị nhòe khi in hai mặt.",
+        "descript": "Giấy in A4 mượt mà là sự lựa chọn lý tưởng cho các máy in tốc độ cao, đảm bảo cho bản in rõ nét và không bị kẹt giấy. Đây là lựa chọn lý tưởng cho văn phòng và các nhu cầu in ấn chuyên nghiệp.",
+        "title": "Giấy in A4 mượt mà (500 tờ)",
+        "brand": "PaperPro",
+        "brandType": "standard",
+        "price": 76000,
+        "salePrice": 76000,
+        "discount": 0.0,
+        "images": [
+            {
+                "url": "https://product.hstatic.net/1000230347/product/ik_natural-02_6f610eb42a7b4b1b9b9a4f2d98e66b22_1024x1024.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/ik_natural-02_2_e85174958715490296987bb82a529c3e_1024x1024.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/ik_natural-02_3_91b33044e1344a70abc4b429d7695083_1024x1024.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_13_8f42bbb15003441dbc09c536d2d7a589.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_11-2_5bf0b18e76a741649bfd1a528d125f3a.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_12_fbc96e34731b4aa09e00fa91e8492043.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_10_copy_1cfbd17069234cf5bc0ec5d0fd406069.jpg",
+                "alt": ""
+            }
+        ],
+        "colors": ["white", "green"],
+        "status": [
+            {
+                "state": "còn hàng",
+                "description": "Sản phẩm hiện có sẵn trong kho."
+            }
+        ]
+    },
+    
+    {
+        "id": "60002103",
+        "name": "Giấy in A4 chất lượng cao",
+        "category": "papers",
+        "categoryID": 1,
+        "characteristic": "- Bề mặt giấy mịn.\n\n- Khả năng chống gợn sóng và xước tốt.\n\n- Không tách lớp, không lem chữ in.\n\n- Màu trắng đồng đều.",
+        "improvement": "- Tăng độ dày và cứng giấy.\n\n- Cải thiện độ chắn sáng và độ mịn.\n\n- In hình ảnh sắc nét, không bị nhòe khi in hai mặt.",
+        "descript": "Giấy in A4 chất lượng cao là sự lựa chọn lý tưởng cho các máy in tốc độ cao, đảm bảo cho bản in rõ nét và không bị kẹt giấy. Đây là lựa chọn lý tưởng cho văn phòng và các nhu cầu in ấn chuyên nghiệp.",
+        "title": "Giấy in A4 chất lượng cao (500 tờ)",
+        "brand": "UniPaper",
+        "brandType": "standard",
+        "price": 77000,
+        "salePrice": 77000,
+        "discount": 0.0,
+        "images": [
+            {
+                "url": "https://product.hstatic.net/1000230347/product/ik_natural-02_6f610eb42a7b4b1b9b9a4f2d98e66b22_1024x1024.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/ik_natural-02_2_e85174958715490296987bb82a529c3e_1024x1024.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/ik_natural-02_3_91b33044e1344a70abc4b429d7695083_1024x1024.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_13_8f42bbb15003441dbc09c536d2d7a589.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_11-2_5bf0b18e76a741649bfd1a528d125f3a.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_12_fbc96e34731b4aa09e00fa91e8492043.jpg",
+                "alt": ""
+            },
+            {
+                "url": "https://product.hstatic.net/1000230347/product/artboard_10_copy_1cfbd17069234cf5bc0ec5d0fd406069.jpg",
+                "alt": ""
+            }
+        ],
+        "colors": ["white", "green"],
+        "status": [
+            {
+                "state": "còn hàng",
+                "description": "Sản phẩm hiện có sẵn trong kho."
+            }
+        ]
+    },
+        
+    
+    {
         "id": "60002239",
         "name": "Ream giấy A5",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao, Độ chắn sáng cao, Độ mịn cải tiến, Hình ảnh sắc nét hơn.",
         "descript": "IK Copy là sự lựa chọn thích hợp cho mọi nhu cầu sử dụng. Thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -113,7 +272,7 @@ const productsData = [
     {
         "id": "60002099",
         "name": "Ream giấy A4",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "IK Plus là sự lựa chọn thích hợp cho mọi nhu cầu sử dụng. Thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -168,7 +327,7 @@ const productsData = [
     {
         "id": "60002241",
         "name": "Ream giấy A4",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "IK Copy là sự lựa chọn thích hợp cho mọi nhu cầu sử dụng. Thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -223,7 +382,7 @@ const productsData = [
     {
         "id": "60002237",
         "name": "Ream giấy A3",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "IK Copy là sự lựa chọn thích hợp cho mọi nhu cầu sử dụng. Thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -267,7 +426,7 @@ const productsData = [
     {
         "id": "60002240",
         "name": "Ream giấy A3",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "IK Copy là sự lựa chọn thích hợp cho mọi nhu cầu sử dụng. Thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -311,7 +470,7 @@ const productsData = [
     {
         "id": "60002239CB5",
         "name": "Ream giấy A5",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "IK Copy là sự lựa chọn thích hợp cho mọi nhu cầu sử dụng. Thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -355,7 +514,7 @@ const productsData = [
     {
         "id": "IKCA470PMI01X",
         "name": "Ream giấy A4",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "Combo gồm 10 ream giấy IK Copy A4 70 gsm và Lốc 06 hộp mực bút lông dầu. Giấy IK Copy với thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -399,7 +558,7 @@ const productsData = [
     {
         "id": "IKCA470PM04X",
         "name": "Ream giấy A4",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "Combo gồm 10 ream giấy IK Copy A4 70 gsm và Hộp 10 bút lông dầu. Giấy IK Copy với thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -443,7 +602,7 @@ const productsData = [
     {
         "id": "60002240CB5",
         "name": "Ream giấy A3 ",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "Giấy IK Copy với thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -487,7 +646,7 @@ const productsData = [
     {
         "id": "60002241CB10",
         "name": "Ream giấy A4 ",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "Giấy IK Copy với thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -531,7 +690,7 @@ const productsData = [
     {
         "id": "IKCA480WBI01X",
         "name": "Ream giấy A4 ",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "Combo gồm 10 ream giấy IK Copy A4 80 gsm và Lốc 06 hộp mực bút lông bảng. Giấy IK Copy với thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -575,7 +734,7 @@ const productsData = [
     {
         "id": "IKCA480WB03X",
         "name": "Ream giấy A4 ",
-        "category": "papers",
+        "category": "papers",'categogyID':'1',
         "characteristic": "- Giấy đều màu.\n\n- Không gợn sóng, không xơ xước và không tách lớp.\n\n- Giấy láng, không bị đốm khác màu hay tạp chất xơ cứng.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Độ dày nâng cao.\n\n- Độ chắn sáng cao, Độ mịn cải tiến.\n\n- Hình ảnh sắc nét hơn.",
         "descript": "Combo gồm 10 ream giấy IK Copy A4 80 gsm và Lốc 06 hộp mực bút lông bảng. Giấy IK Copy với thiết kế vượt trội chạy trên máy photocopy tốc độ cao, số lượng nhiều. Công nghệ Fast Copying ứng dụng trong IK Copy đã được kiểm chứng và tin dùng bởi chất lượng vận hành đồng bộ, không kẹt giấy.",
@@ -620,7 +779,8 @@ const productsData = [
     {
         "id": "50013257",
         "name": "Bút mực gel khô nhanh",
-        "category": "pens",
+        
+        "category": "pens",'categogyID':'02',
         "characteristic": "- Bút Gel là nhãn hàng Bút viết ra đời nhằm mang đến sự tiện lợi, thoải mái cho người sử dụng. Thiết kế bút phù hợp với người Việt, tạo cho người viết không bị mỏi tay. Đầu bi cao cấp giúp mực trợn mượt, phù hợp cho người viết nhiều, tốc ký như học sinh phổ thông, sinh viên.",
         "improvement": "- Mực nước màu đậm và tươi sáng, viết êm trơn, ra đều và liên tục.\n\n- Ngòi bút cao cấp 0.5mm giúp nét viết mảnh, nhỏ.",
         "descript": "Với thiết kế trang nhã, màu sắc tươi sáng phù hợp với nhu cầu sử dụng của nhiều người, Bút Gel đã trở thành người bạn đồng hành của nhiều học sinh.",
@@ -675,7 +835,7 @@ const productsData = [
     {
         "id": "60002022",
         "name": "Bút chì bấm Neon Thiên Long Colokit PC-C002",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "- Dùng cho loại min chì 2.0 mm và độ cứng 3H, 2H, H, HB, B, 2B, 3B, 4B, 5B, 6B\n\n- Vỏ bút bằng nhựa ABS.\n\n- Tiêu chuẩn TCCS 19:2008/TL-BCB.\n\n- Chữ in không bị nhòe, không lem kể cả in 2 mặt giấy.",
         "improvement": "- Nhỏ gọn.\n\n- Cầm êm tay.\n\n- Tích hợp chuốt bút chì.",
         "descript": "Với thiết kế trang nhã, màu sắc tươi sáng phù hợp với nhu cầu sử dụng của nhiều người, Bút chì bấm Neon đã trở thành người bạn đồng hành của nhiều học sinh.",
@@ -730,7 +890,7 @@ const productsData = [
     {
         "id": "50010169",
         "name": "Bút gel xóa được Thiên Long Điểm 10 TP-GELE002",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "- Dạng bút có nắp đậy.\n\n- Bút dạng mực nước, viết trơn êm, mực ra đều, liên tục.\n\n- Mực chất lượng cao không độc hại với người sử dụng.",
         "improvement": "- Cầm êm tay.\n\n- Mực không bị lem và nhanh khô.\n\n- Bút có 2 gôm/tẩy trên cán và nắp bút thuận tiện sử dụng khi xóa mực.",
         "descript": "Với thiết kế trang nhã, màu sắc tươi sáng phù hợp với nhu cầu sử dụng của nhiều người, Bút gel xóa được đã trở thành người bạn đồng hành của nhiều học sinh.",
@@ -785,7 +945,7 @@ const productsData = [
     {
         "id": "50000069CB20",
         "name": "Hộp 20 Bút Bi Thiên Long TL-027",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "Độ dài viết được: 1.600-2.000m.\n\n- Nơi tì ngón tay có tiết diện hình tam giác vừa vặn với tay cầm giúp giảm trơn tuột khi viết thường xuyên.\n\n - Bút bi dạng bấm cò.\n\n - Mực chất lượng cao không độc hại với người sử dụng.",
         "improvement": "- Cầm êm tay.\n\n- Đầu bi nhỏ cho nét chữ thanh mảnh.\n\n- Cơ chế bấm nằm gọn dưới giắt bút, giúp thuận tay khi sử dụng.",
         "descript": "Đây là một trong những cây bút đang được học sinh sử dụng nhiều nhất tại Việt Nam. Bút có thiết kế tối giản, nhưng tinh tế và ấn tượng. Toàn bộ thân bút làm từ nhựa trong, phối hợp hoàn hảo với màu ruột bút bên trong",
@@ -828,7 +988,7 @@ const productsData = [
     {
         "id": "50007150",
         "name": "Bút bi Thiên Long Flexoffice FO-030/VN 0.7mm",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "- Bút dạng mực nước, viết trơn êm, mực ra đều, liên tục.\n\n - Bút bi dạng bấm cò.\n\n - Mực chất lượng cao không độc hại với người sử dụng.",
         "improvement": "- Cầm êm tay.\n\n- Đầu bi nhỏ cho nét chữ thanh mảnh.\n\n- Mực không bị lem và nhanh khô",
         "descript": "Bút nhỏ nhắn trang nhã, được thiết kế phù hợp với tay cầm của người Việt",
@@ -871,7 +1031,7 @@ const productsData = [
     {
         "id": "50010611",
         "name": "Bút Gel xóa được Mondee Điểm 10 TP-GELE003",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "- Bút dạng mực nước, viết trơn êm, mực ra đều, liên tục.\n\n - Mực cao cấp có thể xóa được.\n\n - Mực chất lượng cao không độc hại với người sử dụng.",
         "improvement": "- Cầm êm tay.\n\n- Tích hợp gôm trên thân giúp tẩy sách mực dễ dàng.\n\n- Mực không bị lem và nhanh khô",
         "descript": "Bút Gel là nhãn hàng Bút viết ra đời nhằm mang đến sự tiện lợi, thoải mái cho người sử dụng. Thiết kế bút phù hợp với người Việt, tạo cho người viết không bị mỏi tay. Đầu bi cao cấp giúp mực trợn mượt, phù hợp cho người viết nhiều, tốc ký như học sinh phổ thông, sinh viên.\n" +
@@ -916,7 +1076,7 @@ const productsData = [
     {
         "id": "60001696",
         "name": "Bút chì gỗ 2B Điểm 10 TP-GP06",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "- Nét đậm, ngòi mềm, là loại ruột chì khá phổ biến.\n\n - Ruột bút 2B có màu chì đậm, lõi chắc chắn, mêm mịn, ít bột chì, đảm bảo cho bạn những trang viết rõ nét, đều màu và mịn đẹp\n\n - Được thiết kế nhỏ gọn thân thẳng giúp bạn dễ dàng cầm nắm và điều chỉnh nét vẽ.",
         "improvement": "- Cầm êm tay.\n\n- Ngòi không bị gãy vụn, ít hao.\n\n- Dễ xóa sạch bằng gôm, đặc biệt hạn chế làm bẩn tay và quần áo",
         "descript": "Bút chì gỗ 2B Điểm 10 TP-GP06 được sử dụng phổ biến tại các văn phòng, công sở và hữu ích cho học sinh, sinh viên. Bút chì nhỏ gọn, có tính ứng dụng cao và màu viết đẹp nên được tin dùng trong thời gian vừa qua.",
@@ -959,7 +1119,7 @@ const productsData = [
     {
         "id": "50000961",
         "name": "Bút dạ quang Thiên Long HL-07",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "- Kiểu dáng cách điệu từ chiếc USB, trẻ trung rất thích hợp với học sinh, sinh viên, NVVP.\n\n - Đầu bút bằng sợi polyester viết êm, được nhập khẩu từ Nhật Bản\n\n - Màu mực tươi sáng, độ phản quang cao",
         "improvement": "- Cầm êm tay.\n\n- Thích hợp trên nhiều loại giấy.\n\n- Không làm lem nét chữ khi đánh dấu và không để lại vết khi qua photocopy.",
         "descript": "Bút dạ quang còn được gọi là Bút đánh dấu. Bút dạ quang HL-07 là sản phẩm mới do Tập đoàn Thiên Long sản xuất, mang nhãn hiệu Thiên Long.",
@@ -1002,7 +1162,7 @@ const productsData = [
     {
         "id": "60001670",
         "name": "Bút chì gỗ Điểm 10 TP-GP08",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "- Nét đậm, ngòi mềm, là loại ruột chì khá phổ biến.\n\n - Ruột bút HB có màu chì đậm, ngòi mềm hạn chế gãy khi chuốt và đảm bảo cho bạn những trang viết rõ nét, đều màu và mịn đẹp.\n\n - Được thiết kế nhỏ gọn thân thẳng giúp bạn dễ dàng cầm nắm và điều chỉnh nét vẽ.",
         "improvement": "- Cầm êm tay.\n\n- Thích hợp trên nhiều loại giấy.\n\n- Ngòi không bị gãy vụn, ít hao, dễ xóa sạch bằng gôm, đặc biệt hạn chế làm bẩn tay và quần áo.",
         "descript": "Bút chì gỗ Điểm 10 TP-GP08 được sử dụng phổ biến tại các văn phòng, công sở và hữu ích cho học sinh, sinh viên. Bút chì nhỏ gọn, có tính ứng dụng cao và màu viết đẹp nên được tin dùng trong thời gian vừa qua.",
@@ -1045,7 +1205,7 @@ const productsData = [
     {
         "id": "60001330",
         "name": "Bút chì gỗ Neon Thiên Long Colokit GP-C01",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "- Nét đậm, để lại nhiều than chì trên giấy.\n\n -  Lướt rất nhẹ nhàng trên bề mặt viết.\n\n - Dùng để đánh bóng các bức vẽ, đạt đến nhiều mức độ sáng tối khác nhau.",
         "improvement": "- Cầm êm tay.\n\n- Thích hợp trên nhiều loại giấy.\n\n- Được thiết kế nhỏ gọn thân thẳng giúp bạn dễ dàng cầm nắm và điều chỉnh nét vẽ.",
         "descript": "Bút chì gỗ 2B Colokit GP-C01 thích hợp cho các hoạt động như ghi chép, vẽ nháp, học tập.",
@@ -1088,7 +1248,7 @@ const productsData = [
     {
         "id": "60014289",
         "name": "Bút chì bấm Thiên Long PC-029",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "- Màu sắc tươi sáng, hình ảnh sinh động.\n\n - Ruột chì ra đều và hạn chế gãy.\n\n - Dùng để đánh bóng các bức vẽ, đạt đến nhiều mức độ sáng tối khác nhau.",
         "improvement": "- Bút chì bấm tích hợp chuốt tiện lợi.\n\n- Thích hợp trên nhiều loại giấy.\n\n- Sử dụng được với đa dạng các loại min chì: 3H, 2H, H, HB, B, 2B, 3B…",
         "descript": "Bút chì bấm Thiên Long PC-029 với thiết kế tích hợp đầu chuốt chì trên thân bút giúp làm sắc ngòi bút dễ dàng và nhanh chóng. Kích thước ngòi 2mm, có thể kết hợp với các loại min chì có độ cứng khác nhau, phù hợp cho cả giới văn phòng lẫn các bé đi học. ",
@@ -1131,7 +1291,7 @@ const productsData = [
     {
         "id": "50004960",
         "name": "Bút máy Điểm 10 FTC-02",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "Bút chuyên dùng ống mực FPIC-01, cắm vào là sử dụng.\n\n - Dễ dàng sử dụng, không lo bị lem, bị dây mực ra tay, ra tập như các bút máy bơm mực truyền thống. ",
         "improvement": "Ngòi mài nông FPN-05 được cải tiến mới, viết êm, trơn, không cào giấy mà vẫn viết được chữ nét thanh nét đậm.\n\n- Thích hợp trên nhiều loại giấy.\n\n- Thân bút bằng kim loại, sơn tĩnh điện theo công nghệ tiên tiến không độc hại.",
         "descript": "Bút có thiết kế đẳng cấp, các chi tiết được mạ vàng nhìn rất sang trọng. Hộp bút được thiết kế cao cấp, in 4 màu đẹp mắt, sang trọng và dễ trưng bày.",
@@ -1174,7 +1334,7 @@ const productsData = [
     {
         "id": "50008040",
         "name": "Bút máy Điểm 10 TP-FTC04",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "Hộp bút được thiết kế sang trọng và tinh tế, 1 bút tặng kèm 1 ngòi TP-FN02, 1 ông bơm mực và 2 ống mực.\n\n - Dễ dàng sử dụng, không lo bị lem, bị dây mực ra tay, ra tập như các bút máy bơm mực truyền thống. ",
         "improvement": "Đầu ngòi viết được mài bằng máy nên ổn định chất lượng và đồng nhất.\n\n- Thích hợp trên nhiều loại giấy.\n\n- Viết êm, trơn, không cào giấy, viết chữ nét thanh nét đậm rất đẹp.",
         "descript": "Dùng ống mực FPIC-02, cắm vào là sử dụng đơn giản và tiện lợi, hoặc có thể bơm mực theo cách truyền thống.\n\n - Bút sử dụng ngòi mài nông cải tiến, rất bền, được làm bằng thép cao cấp, xi titanium màu vàng siêu bền.",
@@ -1217,7 +1377,7 @@ const productsData = [
     {
         "id": "60000495",
         "name": "Bút xóa Thiên Long CP-02",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "Dung tích mực: 12 ml.\n\n - Màu đồng nhất, không lắng cặn, bong tróc",
         "improvement": "Công nghệ vượt trội giúp mực xóa nhanh khô, che phủ tốt, không độc hại và an toàn với tầng ozone.\n\n- Thích hợp trên nhiều loại giấy.\n\n- Có nắp đậy tiện dụng, tránh bị khô.",
         "descript": "Bút xóa Thiên Long CP-02 có kiểu dáng thân dẹp, vừa tầm tay, thuận tiện khi sử dụng. Cán bằng nhựa màu xanh lá thể hiện sự trẻ trung, năng động. Đầu bút bằng kim loại có lò xo đàn hồi tốt.",
@@ -1260,7 +1420,7 @@ const productsData = [
     {
         "id": "60016781",
         "name": "Bút xóa kéo - Correction Tape Thiên Long",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "Thiết kế tone màu pastel bắt mắt, hiện đại.\n\n - Kiểu dáng đa dạng, nhỏ gọn, êm tay. \n\n- Băng xóa mượt, có độ che phủ tốt, không bong tróc.",
         "improvement": " Khô siêu nhanh, viết được ngay sau khi xóa.\n\n- Thích hợp trên nhiều loại giấy. \n\n- CT-007 có đệm cao su êm tay, ngòi xoay 90º linh hoạt khi sử dụng. \n\n- Có nắp đậy bảo vệ ngòi bút, chế độ giảm ồn và che phủ tốt.",
         "descript": "Bút xóa kéo Thiên Long với tone màu pastel dễ thương, có độ che phủ tốt, phù hợp với nhiều loại bút và có thể viết ngay sau khi xóa.",
@@ -1303,7 +1463,7 @@ const productsData = [
     {
         "id": "63003935",
         "name": "Bút xóa FlexOffice FO-CP01 PLUS",
-        "category": "pens",
+        "category": "pens",'categogyID':'02',
         "characteristic": "Mực dạng dung môi lỏng.\n\n - Đầu bút bằng kim loại có lò xo đàn hồi tốt. \n\n- An toàn với tầng Ozone.",
         "improvement": " Công nghệ vượt trội giúp mực xuống đều hơn.\n\n- Thích hợp trên nhiều loại giấy. \n\n- Bút ít bị tắc mực, độ che phủ bề mặt tốt hơn và mau khô, giúp cho chữ viết rõ ràng, không bị lem, nhòe.\n\n- Có nắp đậy bảo vệ ngòi bút, chế độ giảm ồn và che phủ tốt.",
         "descript": "Bút xóa Thiên Long - FlexOffice FO-CP01 Plus có kiểu dáng thân dẹp, vừa tầm tay, thuận tiện khi sử dụng. Cán bằng nhựa màu xanh dương thể hiện sự trẻ trung, năng động. Đầu bút bằng kim loại có lò xo đàn hồi tốt. ",
@@ -1349,7 +1509,7 @@ const productsData = [
     {
         "id": "60005310",
         "name": "Tôi Vẽ - Phương Pháp Tự Học Vẽ Truyện Tranh",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Tôi vẽ với 300 trang sách bao gồm những kỹ năng cơ bản cần có của một họa sĩ truyện tranh, từ tạo hình nhân vật, thiết kế bối cảnh, biểu cảm, các kỹ thuật diễn họa cho đến luật phối cảnh. Đây là một cuốn cẩm nang tuyệt vời dành cho các bạn đang bắt đầu học vẽ truyện tranh. Những kiến thức này có thể không giúp các bạn vẽ đẹp ngay lập tức nhưng sẽ là nền tảng vững chắc giúp bạn hình thành các tiêu chuẩn chuyên nghiệp trong nghề và không mất thời gian tự mò mẫm. Phần minh họa cho các bài học cũng rất hấp dẫn và sáng tạo. Các tác giả đã sử dụng chính nhân vật và trang truyện của mình để làm rõ sự liên quan giữa lý thuyết và thực tế, tính ứng dụng rõ ràng của các kỹ thuật và quy trình sáng tác. Trên thị trường hiện tại không thiếu những quyển sách dạy vẽ truyện tranh được dịch và biên tập lại từ nhiều nguồn nhưng đa số là kiểu sách “cầm tay chỉ việc”, không thật sữ hữu ích với các bạn trẻ Việt Nam – những bạn không theo học chuyên ngành mỹ thuật, thiếu kiến thức nền tảng về hội họa… Ngược lại, trong quyển Tôi vẽ, mọi phần kiến thức từ lớn đến nhỏ đều được lý giải và phân tích khá kỹ kèm ảnh minh họa rõ ràng, giúp người xem hiểu được gốc rễ vấn đề đồng thời áp dụng áp dụng vào nhiều “ngữ cảnh” khác nhau trong lúc sáng tác.",
         "title": "Tôi Vẽ - Phương Pháp Tự Học Vẽ Truyện Tranh",
         "brand": " Đông A",
@@ -1390,7 +1550,7 @@ const productsData = [
     {
         "id": "60014361",
         "name": "Meo Meo Và 50 Sắc Thái",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Họa sĩ của những cuốn sách bán chạy Lulu Mayo đã đưa người đọc bước vào thế giới giàu trí tưởng tượng và độc đáo qua tác phẩm mới nhất Meo meo & 50 sắc thái. Thông qua các hoạt động hội họa về loài mèo đầy lý thú và khác lạ, tác phẩm nghệ thuật đặc sắc và hài hước của Lulu đã đưa “miêu tính” du nhập vào thế giới đời thường của loài mèo vốn được chúng ta yêu thích. Meo meo & 50 sắc thái giúp chúng ta học hỏi được cách vẽ một chú mèo Munchkin, định hình phong cách của các tín đồ thời trang lấy cảm hứng từ động vật, khắc họa hình tượng những chú mèo của riêng bạn và nhiều hơn thế. Tác phẩm là người bạn đồng hành đầy sáng tạo hoàn hảo cho những tín đồ yêu mèo và những người đam mê nghệ thuật hội họa về loài động vật này.",
         "title": "Meo Meo Và 50 Sắc Thái",
         "brand": " Huy Hoàng",
@@ -1431,7 +1591,7 @@ const productsData = [
     {
         "id": "60013438",
         "name": "Sách Cùng Vui Với Origami",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Origami - trong tiếng Nhật nghĩa là \"xếp giấy\", là nghệ thuật xếp giấy thủ công để tạo hình trang trí bằng giấy. Khi học được kỹ thuật này, các em có thể thực hiện vô số mẫu hình thú vị như: Hình người, thú, dao kéo... Vật liệu chính để thao tác là các loại giấy, đôi lúc cũng cần đến dao, kéo... Bộ sách\"Vui Cùng Origami - Nghệ Thuật Xếp Giấy Nhật Bản\"gồm 8 tập. Mỗi tập được minh họa cụ thể, có phần hướng dẫn cơ bản, là một phần cơ bản để các em luyện tập và thư giãn cùng nghệ thuật xếp giấy.",
         "title": "Sách Cùng Vui Với Origami",
         "brand": "Đà Nẵng",
@@ -1472,7 +1632,7 @@ const productsData = [
     {
         "id": "60013437",
         "name": "Sách Bí Quyết Hội Họa Luyện Vẽ Hình Khối",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Bạn đam mê hội họa và muốn bắt đầu học vẽ? Bạn gặp khó khăn trong việc tìm ra sách học phù hợp? Bạn bối rối không biết nên bắt đầu từ đâu? Bộ sách Bí Quyết Hội Họa sẽ là người bạn đồng hành tuyệt vời, giúp bạn có khởi đầu thuận lợi trên con đường học vẽ của mình. Bộ sách được thiết kế với từng cấp độ từ cơ bản đến nâng cao, mang đến cho bạn những kiến thức nền tảng cũng như định hướng để tiếp tục đào sâu đam mê. LUYỆN VẼ HÌNH KHỐI trong bộ sách này sẽ giúp bạn hiểu được cấu trúc cơ bản của các vật thể trong tự nhiên. Thông qua những bài tập vẽ khối đơn giản, bạn sẽ có cái nhìn tổng quan về những kiến thức quan trọng nhất trong hội họa như ánh sáng, phối cảnh, bố cục…, tạo tiền đề cho sự phát triển kỹ năng hội họa sau này.",
         "title": "Sách Bí Quyết Hội Họa Luyện Vẽ Hình Khối",
         "brand": "Thanh Hóa",
@@ -1513,7 +1673,7 @@ const productsData = [
     {
         "id": "60013433",
         "name": "Sách Lấy Màu Sắc Điểm Tô Cuộc Đời",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Hãy đi tìm sắc màu của riêng mình! Màu sắc tồn tại trong mọi mặt của đời sống, bởi màu sắc có mối quan hệ mật thiết với tính cách, phong cách và sở thích cá nhân. Màu sắc có thể giúp bạn tỏa sáng và nổi bật giữa đám đông nhưng cũng có thể khiến bạn trông u ám, tiều tụy và mờ nhạt, thậm chí gây phản cảm. Việc nắm bắt những phương pháp khoa học để tìm ra màu sắc phù hợp sẽ khiến bạn trở nên xinh đẹp và thu hút hơn. Không phải ai cũng là chuyên gia phối màu. Vậy làm thế nào để tìm ra màu sắc phù hợp với chính mình? Cuốn sách này sẽ dẫn bước bạn vào hành trình khám phá thế giới diệu kì của màu sắc, từ những lí thuyết của khoa học sắc màu đến việc vận dụng chúng vào thao tác phối màu trong thời trang và đời sống một cách tự nhiên… Cùng tìm hiểu xem màu nào nên dùng, màu nào nên tránh để làm đẹp thêm cho bản thân, và bạn biết không, khi bạn tự tin, yêu đời với màu sắc của riêng mình, cuộc sống của bạn cũng sẽ lung linh sắc màu!",
         "title": "Sách Lấy Màu Sắc Điểm Tô Cuộc Đời",
         "brand": "Kim Đồng",
@@ -1554,7 +1714,7 @@ const productsData = [
     {
         "id": "60016332",
         "name": "Flying Minds (12 Years Old +)",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Flying Minds - Bring Out The Creative Writer In You (12 Years Old +) Nằm trong bộ sách Flying minds, cuốn sách là tuyển tập những hoài bão lớn lao, những cung bậc cảm xúc, những suy nghĩ mới mẻ và những câu chuyện phản tư đáng suy ngẫm được kể lại qua ngòi bút mang đậm bản sắc cá nhân của các bạn học sinh tại Tổ chức giáo dục IEG. Mỗi tác phẩm trong cuốn sách sẽ mở ra một thế giới nội tâm sâu sắc của tác giả ở lứa tuổi thiếu niên, từ đó giúp người đọc liên hệ với những trải nghiệm cá nhân, gợi mở tư duy và khơi nguồn sáng tạo qua từng câu chữ. Đồng thời, người đọc có cơ hội học hỏi những kỹ thuật viết đa dạng cũng như cách sử dụng từ vựng vô cùng đặc sắc và linh hoạt với hơn 10 chủ đề rất phong phú. Trong quá trình biên soạn, chúng tôi - đội ngũ chuyên môn đã tinh chỉnh một số lượng nhỏ những lỗi ngữ pháp và chính tả nhằm làm sáng tỏ nội dung của các tác phẩm nhưng đồng thời vẫn đảm bảo ý tưởng của tác giả được giữ nguyên bản. Bên cạnh đó, người đọc sẽ tìm thấy một vài lỗi sai được ban biên tập giữ lại một cách hữu ý mà không ảnh hưởng đến việc truyền tải ý tưởng bởi đó chính là dấu ấn cho sự nỗ lực trong quá trình sáng tạo. Đội ngũ chuyên môn cũng đã thiết kế nhiều hoạt động tương tác nhằm giúp người đọc khai thác hiệu quả các kỹ thuật viết cũng như nội dung từ tác phẩm được chọn lọc trong cuốn sách này. Độc giả sẽ lần lượt thử sức mình với các hoạt động trong 3 bước tương tác với bài viết mẫu, đó là Seeding (Hoạt động khởi động), Growing (Hoạt động phát triển ý tưởng) và Blossoming (Hoạt động sáng tạo). Thứ tự của các hoạt động được xây dựng dựa trên phương pháp ESA (dẫn nhập - học - vận dụng trong thực tế) – một phương pháp được áp dụng để kích thích tư duy trong học tập.",
         "title": "Flying Minds (12 Years Old +)",
         "brand": "Dân Trí",
@@ -1595,7 +1755,7 @@ const productsData = [
     {
         "id": "60016330",
         "name": "Flying Minds (8 Years Old +)",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Flying Minds - Bring Out The Creative Writer In You (8 Years Old +) Nằm trong bộ sách Flying minds, cuốn sách này là tuyển tập những câu chuyện thú vị, những ước mơ trong sáng đầy sinh động, những cung bậc cảm xúc và những trải nghiệm tuyệt vời được kể lại qua ngòi bút sáng tạo của các bạn học sinh tại Tổ chức giáo dục IEG. Mỗi tác phẩm trong cuốn sách không chỉ đưa người đọc bước vào một thế giới nhiều màu sắc thông qua lăng kính độc đáo của tác giả nhỏ tuổi mà còn giúp người đọc luyện tập những kỹ thuật viết đa dạng cũng như cách sử dụng từ vựng vô cùng đặc sắc với hơn 10 chủ đề rất phong phú. Trong quá trình biên soạn, chúng tôi - đội ngũ chuyên môn tại Tổ chức giáo dục IEG đã tinh chỉnh một số lượng nhỏ những lỗi ngữ pháp và chính tả nhằm làm sáng tỏ nội dung của các tác phẩm nhưng đồng thời vẫn đảm bảo ý tưởng của học sinh được giữ nguyên bản. Bên cạnh đó, người đọc sẽ tìm thấy một vài lỗi sai được ban biên tập giữ lại một cách hữu ý mà không ảnh hưởng đến việc truyền tải ý tưởng bởi đó chính là dấu ấn cho sự nỗ lực trong quá trình sáng tạo. Đội ngũ chuyên môn cũng đã thiết kế nhiều hoạt động tương tác nhằm giúp người đọc khai thác hiệu quả các kỹ thuật viết cũng như nội dung từ tác phẩm được chọn lọc trong cuốn sách này. Độc giả sẽ lần lượt thử sức mình với các hoạt động trong 3 bước tương tác với bài viết mẫu, đó là Seeding (Hoạt động khởi động), Growing (Hoạt động phát triển ý tưởng) và Blossoming (Hoạt động sáng tạo). Thứ tự của các hoạt động được xây dựng dựa trên phương pháp ESA (dẫn nhập - học - vận dụng trong thực tế) – một phương pháp được áp dụng để kích thích tư duy trong học tập.",
         "title": "Flying Minds (8 Years Old +)",
         "brand": "Dân Trí",
@@ -1636,7 +1796,7 @@ const productsData = [
     {
         "id": "60014362",
         "name": "Tớ Cũng Là Danh Họa",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Đã bao giờ bạn nhìn thấy một tác phẩm nghệ thuật và phải thốt lên: \"Ước gì mình cũng vẽ được một bức tranh tuyệt đẹp như vậy nhỉ?” Với Tớ cũng là danh họa, cơ hội để bạn thể hiện tài năng đến rồi đây! Lấy cảm hứng từ các nghệ sĩ nổi tiếng nhất thế giới, cuốn sách giới thiệu đến bạn 25 phong cách nghệ thuật khác nhau qua các thời đại, từ những tác phẩm kỳ cục của Kandinsky đến khu vườn ấn tượng của Matisse. Hãy thử tự tay vẽ nên những bức tranh theo phong cách đa dạng của những nghệ sĩ tài ba qua những hướng dẫn cơ bản và tỉ mỉ về đặc trưng trong cách vẽ của họ. Sau khi khám phá hết các trang sách, biết đâu chính bạn sẽ tự sáng tạo ra một phong cách độc đáo và mới lạ của riêng mình.",
         "title": "Tủ Sách Nghệ Thuật Thiếu Nhi - Tớ Cũng Là Danh Họa",
         "brand": "Alpha Books",
@@ -1677,7 +1837,7 @@ const productsData = [
     {
         "id": "60223437",
         "name": "Tiệm Đá Bào Vui Vẻ",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Tuyển tập này phù hợp nhu cầu phát triển thể chất và tâm lý của trẻ em, lấy sự phát triển của trẻ làm chủ đề chính và hiển thị nó trong nhiều bối cảnh. Đối với trẻ trên 3 tuổi, thế giới của trẻ dần thay đổi từ gia đình sang trường mẫu giáo và thiên nhiên xung quanh nhà. Từng quyển sách chứa đựng những khung cảnh phong phú, tươi đẹp để hướng dẫn trẻ mở rộng thế giới rộng lớn và nhiều màu sắc hơn!​",
         "title": "Sách Tranh Ehon Kuma - Những Chuyện Nhỏ Hằng Ngày - Tiệm Đá Bào Vui Vẻ",
         "brand": "Văn Học",
@@ -1718,7 +1878,7 @@ const productsData = [
     {
         "id": "60016336",
         "name": "Little People,Big Dreams-Steve Jobs",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Với cốt truyện đơn giản nhưng hấp dẫn, ngôn ngữ gần gũi, dễ hiểu và ghi nhớ cùng với hình ảnh minh họa tuyệt đẹp, Little People, BIG DREAMS mang tới những bài học ý nghĩa chắc chắn ba mẹ sẽ muốn dành tặng các bạn nhỏ Bộ sách được xuất bản lần đầu ở Tây Ban Nha và cho tới nay đã được chuyển ngữ và xuất bản qua hơn 20 ngôn ngữ. Maria Isabel thích nghĩ rằng thành công này có được là bởi vì trẻ em rất thích đọc các câu chuyện về những đứa trẻ khác đạt được những thành tựu vĩ đại. Điều đó trao cho chúng sức mạnh và lòng can đảm để tin vào chính mình và không ngại nuôi dưỡng những ước mơ dù có vẻ viển vông đến đâu đi nữa. Bộ sách còn có sự góp mặt minh họa của hơn 70 họa sĩ nổi tiếng đến từ khắp nơi trên thế giới. Phong cách minh họa vừa có nét chung của bộ sách mà vẫn giữ được nét riêng của từng danh nhân và từng họa sĩ. Điều này đã đóng góp vào sự đa dạng của bộ sưu tập truyện kể các danh nhân từ mọi thời đại và đến từ khắp nơi trên thế giới.",
         "title": "Little People,Big Dreams-Steve Jobs",
         "brand": " Lao Động",
@@ -1759,7 +1919,7 @@ const productsData = [
     {
         "id": "8935278605522",
         "name": "Bảo vệ trẻ trước chấn thương tâm lý",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "",
         "title": "Bảo vệ trẻ trước chấn thương tâm lý",
         "brand": "NXB Thế Giới",
@@ -1800,7 +1960,7 @@ const productsData = [
     {
         "id": "8935278607625",
         "name": "Tâm Hồn Cao Thượng",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Đến tận bây giờ, Tâm hồn cao thượng vẫn là một trong những tác phẩm có sức sống bền bỉ trong đời sống xuất bản của nhiều quốc gia. Năm 1948, Tâm hồn cao thượng lần đầu tiên xuất bản ở Việt Nam để rồi từ đó đến tận bây giờ, tác phẩm này vẫn luôn là sách gối đầu giường của nhiều thế hệ. Tác phẩm được xem như một cuốn “luân lý giáo khoa thư” của thế kỷ 20. Sức ảnh hưởng một cuốn tiểu thuyết trẻ em, xuất phát từ đâu? Câu trả lời, rất đơn giản: Từ điều bình dị nhất, là sự tử tế.\n" +
             "\n" +
             "Được viết theo hình thức nhật ký của Enico Bottini, cậu học trò 10 tuổi, Tâm hồn cao thượng đem đến người đọc những câu chuyện nhỏ, diễn ra theo thứ tự thời gian xuyên suốt năm lớp 3 của Enrico, nhưng lại là những vấn đề quan tâm của toàn xã hội. Gia đình Enico Bottini thuộc tầng lớp thượng lưu trong khi nhiều bạn cùng lớp lại xuất thân từ tầng lớp lao động. Đó chính là lý do, dù là trong thế giới của những đứa trẻ, những va đập xã hội vẫn diễn ra liên tục. Bất ngờ là sau những va đập đó, những mảnh vỡ nhặt được lại lóng lánh giá trị sống: lòng yêu nước, sự chân thành và hơn cả, là sự tử tế của mỗi con người.",
@@ -1843,7 +2003,7 @@ const productsData = [
     {
         "id": "8935278607311",
         "name": "Mẹ Đâu Rồi?",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Bộ sách lật tương tác song ngữ 0-3 tuổi được thiết kế hoàn toàn phù hợp với các yêu cầu trên cho trẻ bé. 5 cuốn sách trong bộ này chính là những món đồ chơi giàu tính tương tác. Sách in giấy rất dày dặn, có cán láng mịn màng, mỗi cuốn đều có nhiều miếng lật theo nhiều chiều khác nhau để trẻ rèn thao tác tay, và đề tài của sách thực sự thú vị với lứa tuổi 0-3. Trẻ ở tuổi này sẽ không thể không bị hút mắt bởi cuốn sách Ú òa, sách Mông ai đâydạy trẻ nhìn mông đoán hình ảnh con vật, sách 5 quả táo nhỏ đếm số quả táo và dạy về thức ăn của các loài vật quanh trẻ, sách Mẹ đâu rồi dạy trẻ nhận biết các cặp mẹ con trong thế giới động vật, và cuốn sách Chúc ngủ ngon ru trẻ ngủ. Mỗi cuốn sách tưởng chừng rất đơn giản nhưng lại được thiết kế kỹ càng, tông màu và hình ảnh hợp với chủ đề, miếng lật giở theo nhiều chiều chứ không đơn điệu, đề tài thì gắn bó chặt chẽ và rất thiết thân với tâm lý lứa tuổi trẻ.",
         "title": "Sách Lật Tương Tác Song Ngữ 0 - 3 Tuổi - Mẹ Đâu Rồi? (Tái Bản)",
         "brand": "Nhã Nam",
@@ -1884,7 +2044,7 @@ const productsData = [
     {
         "id": "8935278602538",
         "name": "Trọn Bộ 10 Vạn Câu Hỏi Vì Sao: Vũ Trụ, Vật Lý, Con Người, Thực Vật, Động Vật",
-        "category": "books",
+        "category": "books",categogyID :5,
         "descript": "Trọn bộ 10 vạn câu hỏi vì sao 1. 10 vạn câu hỏi vì sao? – Vũ trụ Khác với những cuốn sách đi sâu đề cập đến các sự việc và hiện tượng theo hướng khoa học thuần túy, 10 vạn câu hỏi vì sao? - Vũ trụ đưa ra những chủ đề gần gũi và dễ gây hứng thú đối với trẻ. Qua các mẩu chuyện của những nhân vật đáng yêu rút ra từ tình huống thực tế, trẻ sẽ được giải đáp thỏa đáng những thắc mắc thường gặp trong các lĩnh vực quen thuộc của cuộc sống hằng ngày từ Cơ thể, Cuộc sống, Thế giới tự nhiên, Thế giới động vật cho đến Vũ trụ và Trái đất. Với những điều ấy, 10 vạn câu hỏi vì sao? - Vũ trụ là cánh cửa tri thức đầu tiên mở ra thế giới giúp các em cảm nhận được sự kì diệu của cuộc sống. Đồng thời bộ sách cũng là bước khởi đầu thôi thúc các em không ngừng khám phá, tìm hiểu nhiều hơn nữa những bí mật ẩn chứa xung quanh. 2. 10 vạn câu hỏi vì sao? – Vật lý Vì sao phải đắp đê trên hẹp dưới rộng? Vì sao khi phanh ô tô nhất định phải phanh bánh sau? Vì sao bút máy có thể tự động chảy mực ra? Các nội dung kiến thức được trình bày giản dị, dễ hiểu, giàu tính thông tin khoa học và thực tiễn, đặc biệt phù hợp với các bạn nhỏ, giúp các em phát huy trí tò mò, mở rộng hiểu biết về thế giới xung quanh. 3. 10 vạn câu hỏi vì sao? – Con người Tiếp nối những cuốn sách trong bộ sách 10 vạn câu hỏi vì sao?, trong cuốn 10 vạn câu hỏi vì sao ? - Con người các chuyên gia khoa học thường thức giàu kinh nghiệm, sử dụng ngôn ngữ dễ hiểu, kết hợp những hình ảnh minh họa sinh động, sẽ trả lời cho các em những câu hỏi thắc mắc về loài người như: vì sao mắt không sợ lạnh? vì sao người ta lại ngáp, cơ thể con người do bao nhiêu tế bào hợp thành?... 4. 10 vạn câu hỏi vì sao? – Thực vật Vì sao hoa dạ lan đến tối mới? Vì sao sau khi ra hoa tre lại chết? Vì sao củ thủy tiên ngâm trong nước lạnh lại nở hoa? Thông qua những câu hỏi về các sự vật, hiện tượng trong tự nhiên, tập sách 10 vạn câu hỏi vì sao? sẽ giải đáp một cách chính xác, khoa học và dễ hiểu cho bạn đọc về thực vật. Các nội dung kiến thức được trình bày giản dị, dễ hiểu, giàu tính thông tin khoa học và thực tiễn, đặc biệt phù hợp với các nhỏ. 5. 10 vạn câu hỏi vì sao? – Động vật Trong cuốn 10 vạn câu hỏi vì sao - Động vật các chuyên gia khoa học thường thức giàu kinh nghiệm, sử dụng ngôn ngữ dễ hiểu, kết hợp những hình ảnh minh họa sinh động, sẽ trả lời cho các em những câu hỏi thắc mắc về động vật ",
         "title": "Trọn Bộ 10 Vạn Câu Hỏi Vì Sao: Vũ Trụ, Vật Lý, Con Người, Thực Vật, Động Vật",
         "brand": "Huy Hoàng",
@@ -1926,7 +2086,7 @@ const productsData = [
     {
         "id": "60014903",
         "name": "Sổ lò xo đường kẻ ngang A5 Thiên Long",
-        "category": "notes",
+        "category": "notes",categogyID :4,
         "characteristic": "Giấy dày và mịn, giấy Forst 100gsm.\n\n - Kiểu dáng đa dạng, nhỏ gọn, êm tay. \n\n- Không cấn tay khi sử dụng.",
         "improvement": " Thích hợp nhiều loại bút.\n\n-Họa tiết kẻ ngang, giấy bền chắc gập mở 180º và 360º dễ dàng.",
         "descript": "Sổ lò xo A5 dùng để ghi chép, chú thích, vẽ, phác họa,... thích hợp cho mọi lứa tuổi",
@@ -1969,7 +2129,7 @@ const productsData = [
     {
         "id": "60014905",
         "name": "Sổ lò xo đường kẻ ngang B5 Thiên Long",
-        "category": "notes",
+        "category": "notes",categogyID :4,
         "characteristic": "Giấy dày và mịn, giấy Forst 100gsm.\n\n -Họa tiết kẻ ngang, giấy bền chắc gập mở 180º và 360º dễ dàng. ",
         "improvement": " Thích hợp nhiều loại bút.\n\n- Giấy chất lượng cao, chống lém, không loang màu. \n\n- Không cấn tay khi sử dụng.",
         "descript": "Sổ lò xo B5 dùng để ghi chép, chú thích, vẽ, phác họa,... thích hợp cho mọi lứa tuổi",
@@ -2012,7 +2172,7 @@ const productsData = [
     {
         "id": "60013465",
         "name": "Sổ lò xo đường kẻ ngang A5 Thiên Long MB-011 - Màu ngẫu nhiên",
-        "category": "notes",
+        "category": "notes",categogyID :4,
         "characteristic": "Giấy dày và mịn.\n\n -Họa tiết kẻ ngang, giấy bền chắc gập mở 180º và 360º dễ dàng. ",
         "improvement": " Thích hợp nhiều loại bút.\n\n- Giấy chất lượng cao, chống lém, không loang màu. \n\n- Không cấn tay khi sử dụng.",
         "descript": "Sổ lò xo đường kẻ ngang A5 dùng để ghi chép, chú thích, vẽ, phác họa,... thích hợp cho mọi lứa tuổi",
@@ -2055,7 +2215,7 @@ const productsData = [
     {
         "id": "60013467",
         "name": "Sổ lò xo đường kẻ caro A5 Thiên Long MB-015 - Màu ngẫu nhiên",
-        "category": "notes",
+        "category": "notes",categogyID :4,
         "characteristic": "Giấy dày và mịn.\n\n -Họa tiết kẻ ngang, giấy bền chắc gập mở 180º và 360º dễ dàng. ",
         "improvement": " Thích hợp nhiều loại bút.\n\n- Giấy chất lượng cao, chống lém, không loang màu. \n\n- Không cấn tay khi sử dụng.",
         "descript": "Sổ lò xo đường kẻ caro A5 dùng để ghi chép, chú thích, vẽ, phác họa,... thích hợp cho mọi lứa tuổi",
@@ -2098,7 +2258,7 @@ const productsData = [
     {
         "id": "60013469",
         "name": "Sổ lò xo đường kẻ chấm bi A5 Thiên Long MB-017 - Màu ngẫu nhiên",
-        "category": "notes",
+        "category": "notes",categogyID :4,
         "characteristic": "Giấy dày và mịn.\n\n -Họa tiết kẻ ngang, giấy bền chắc gập mở 180º và 360º dễ dàng. ",
         "improvement": " Thích hợp nhiều loại bút.\n\n- Giấy chất lượng cao, chống lém, không loang màu. \n\n- Không cấn tay khi sử dụng.",
         "descript": "Sổ lò xo đường kẻ chấm bi A5 dùng để ghi chép, chú thích, vẽ, phác họa,... thích hợp cho mọi lứa tuổi",
@@ -2141,7 +2301,7 @@ const productsData = [
     {
         "id": "60013466",
         "name": "Sổ lò xo đường kẻ ngang B5 Thiên Long MB-012- Màu ngẫu nhiên",
-        "category": "notes",
+        "category": "notes",categogyID :4,
         "characteristic": "Giấy dày và mịn.\n\n -Họa tiết kẻ ngang, giấy bền chắc gập mở 180º và 360º dễ dàng. ",
         "improvement": " Thích hợp nhiều loại bút.\n\n- Giấy chất lượng cao, chống lém, không loang màu. \n\n- Không cấn tay khi sử dụng.",
         "descript": "Sổ lò xo đường kẻ ngang B5 dùng để ghi chép, chú thích, vẽ, phác họa,... thích hợp cho mọi lứa tuổi",
@@ -2184,7 +2344,7 @@ const productsData = [
     {
         "id": "60013468",
         "name": "Sổ lò xo đường kẻ caro B5 Thiên Long MB-016- Màu ngẫu nhiên",
-        "category": "notes",
+        "category": "notes",categogyID :4,
         "characteristic": "Giấy dày và mịn.\n\n -Họa tiết kẻ ngang, giấy bền chắc gập mở 180º và 360º dễ dàng. ",
         "improvement": " Thích hợp nhiều loại bút.\n\n- Giấy chất lượng cao, chống lém, không loang màu. \n\n- Không cấn tay khi sử dụng.",
         "descript": "Sổ lò xo đường kẻ caro B5 dùng để ghi chép, chú thích, vẽ, phác họa,... thích hợp cho mọi lứa tuổi",
@@ -2227,7 +2387,7 @@ const productsData = [
     {
         "id": "60013470",
         "name": "Sổ lò xo đường kẻ chấm bi B5 Thiên Long MB-018- Màu ngẫu nhiên",
-        "category": "notes",
+        "category": "notes",categogyID :4,
         "characteristic": "Giấy dày và mịn.\n\n -Họa tiết kẻ ngang, giấy bền chắc gập mở 180º và 360º dễ dàng. ",
         "improvement": " Thích hợp nhiều loại bút.\n\n- Giấy chất lượng cao, chống lém, không loang màu. \n\n- Không cấn tay khi sử dụng.",
         "descript": "Sổ lò xo đường kẻ chấm bi B5 dùng để ghi chép, chú thích, vẽ, phác họa,... thích hợp cho mọi lứa tuổi",
@@ -2270,7 +2430,7 @@ const productsData = [
     {
         "id": "60001852",
         "name": "Sổ lò xo A7 Thiên Long",
-        "category": "notes",
+        "category": "notes",categogyID :4,
         "characteristic": "Giấy dày và mịn.\n\n -Giấy bền chắc gập mở 180º và 360º dễ dàng. ",
         "improvement": " Thích hợp nhiều loại bút.\n\n- Giấy chất lượng cao, chống lém, không loang màu. \n\n- Không cấn tay khi sử dụng.",
         "descript": "Sổ lò xo A7 dùng để ghi chép, chú thích, vẽ, phác họa,... thích hợp cho mọi lứa tuổi",
@@ -2313,7 +2473,7 @@ const productsData = [
     {
         "id": "60001662",
         "name": "Sổ lò xo dọc A5 160T MB-004",
-        "category": "notes",
+        "category": "notes",categogyID :4,
         "characteristic": "Giấy dày và mịn.\n\n -Giấy bền chắc gập mở 180º và 360º dễ dàng. ",
         "improvement": " Thích hợp nhiều loại bút.\n\n- Giấy chất lượng cao, chống lém, không loang màu. \n\n- Không cấn tay khi sử dụng.",
         "descript": "Sổ lò xo dọc A5 160T MB-004 dùng để ghi chép, chú thích, vẽ, phác họa,... thích hợp cho mọi lứa tuổi",
@@ -2360,7 +2520,7 @@ const productsData = [
     {
         "id": "50014498",
         "name": "Gôm tẩy không bụi mịn - Strive Dust Free Thiên Long E-035",
-        "category": "others",
+        "category": "others",categogyID :3,
         "characteristic": "Gôm tẩy sạch vết chì trên giấy, gôm sẽ tạo thành sợi.\n\n -không bụi mịn, tẩy êm. ",
         "improvement": " Chứa ion Bạc, có cơ chế kháng khuẩn hiệu quả, kháng các loại vi khuẩn gây hại trong quá trình sử dụng và bảo quản. \n\n- Không bị rách giấy và không bị gãy gôm khi tẩy. \n\n- Có khả năng tẩy sạch được nét bút chì 4B. ",
         "descript": "Sản phẩm được kiểm tra theo tiêu chuẩn: JIS Z 2801 – Janpan đáp ứng diệt khuẩn với 2 dòng khuẩn chính Ecoli và Staphylococcus Aureus (Tụ cầu vàng) và hầu hết các loại vi khuẩn gây hại phổ biến khác. Phù hợp cho học sinh, sinh viên, nhân viên văn phòng",
@@ -2403,7 +2563,7 @@ const productsData = [
     {
         "id": "50013893",
         "name": "Keo khô - Glue Stick Thiên Long G-026/AK",
-        "category": "others",
+        "category": "others",categogyID :3,
         "characteristic": "Thiết kế với màu sắc tươi sáng, trẻ trung, sinh động.\n\n -Keo khô dạng thỏi, thuận tiện khi sử dụng. ",
         "improvement": " Sử dụng cơ chế xoay giúp keo không bị khô. \n\n- An toàn, không độc hại. \n\n- Độ dính cao, chất keo bền chắc. ",
         "descript": "Keo khô - Glue Stick Thiên Long G-026/AK - Nhân vật Akooland thế giới học cụ thần kỳ, thuận tiện cho người sử dụng, an toàn, thuận tiện. Thích hợp cho học sinh, sinh viên, nhân viên văn phòng.",
@@ -2446,7 +2606,7 @@ const productsData = [
     {
         "id": "60016388",
         "name": "Keo sữa - White Glue Thiên Long G-022 - Độ dính cao",
-        "category": "others",
+        "category": "others",categogyID :3,
         "characteristic": "Keo màu trắng sữa, có độ kết dính cao, khô nhanh.\n\n -Thiết kế nắp vặn dễ dàng bảo quản, tránh bị đổ khi không sử dụng. ",
         "improvement": " Thanh quét keo tích hợp trên nắp dễ dàng thoa đều lên bề mặt. \n\n- Đầu nắp nhỏ có thể điều chỉnh được lượng keo lấy ra, tránh lãng phí. \n\n- Keo có thể rửa được, an toàn, không độc hại. ",
         "descript": "Keo sữa - White Glue Thiên Long G-022 dạng lỏng, khô nhanh, có độ kết dính cao. Đặc biệt có đầu quét dễ dàng thoa đều keo khi sử dụng. Dùng được trên nhiều loại vật liệu như giấy, gỗ, vải, gốm.",
@@ -2489,7 +2649,7 @@ const productsData = [
     {
         "id": "50010542",
         "name": "Keo dán giấy Điểm 10 G-08",
-        "category": "others",
+        "category": "others",categogyID :3,
         "characteristic": "Lọ nhỏ tiện dụng.\n\n -Đầu bôi keo dạng lưỡi gà, dễ dàng sử dụng và không bị khô đầu dán. ",
         "improvement": " Thanh quét keo tích hợp trên nắp dễ dàng thoa đều lên bề mặt. \n\n- Đầu nắp nhỏ có thể điều chỉnh được lượng keo lấy ra, tránh lãng phí. \n\n- Keo có thể rửa được, an toàn, không độc hại. ",
         "descript": "Keo dán giấy Thiên Long - Điểm 10 G-08 là dạng keo lỏng, lọ nhỏ dung tích 30ml tiện dụng. Mùi dễ chịu, không gắt. Chất keo có độ đặc vừa, mau khô, độ kết dính tốt. Sản phẩm không độc hại, an toàn với sức khỏe.",
@@ -2532,7 +2692,7 @@ const productsData = [
     {
         "id": "60018004",
         "name": "Máy tính khoa học Thiên Long Flexio Fx799VN",
-        "category": "others",
+        "category": "others",categogyID :3,
         "characteristic": "Có thiết kế nhỏ gọn, tiện lợi cho việc mang theo.\n\n -Màn hình LCD lớn, rõ nét, hiển thị nhiều dòng giúp người dùng dễ dàng quan sát và kiểm tra lại các phép tính.",
         "improvement": " Tính năng đột phá hình học không gian. \n\n-Sử dụng pin năng lượng mặt trời.",
         "descript": "Máy tính khoa học Thiên Long Flexio Fx799VN là một công cụ hữu ích, hỗ trợ đắc lực cho việc học tập và công việc, đáp ứng nhu cầu tính toán từ cơ bản đến nâng cao.",
@@ -2575,7 +2735,7 @@ const productsData = [
     {
         "id": "60014343",
         "name": "Máy tính khoa học Flexio Fx680VN Plus",
-        "category": "others",
+        "category": "others",categogyID :3,
         "characteristic": "Có thiết kế nhỏ gọn, tiện lợi cho việc mang theo.\n\n -Màn hình LCD lớn, rõ nét, hiển thị nhiều dòng giúp người dùng dễ dàng quan sát và kiểm tra lại các phép tính.",
         "improvement": " Hỗ trợ các phép tính nâng cao. \n\n-Bộ nhớ lớn, giúp lưu trữ nhiều phép tính và dữ liệu.",
         "descript": "Máy tính khoa học Flexio Fx680VN Plus là một công cụ hữu ích, hỗ trợ đắc lực cho việc học tập và công việc, đáp ứng nhu cầu tính toán từ cơ bản đến nâng cao.",
@@ -2618,7 +2778,7 @@ const productsData = [
     {
         "id": "63022816BIZ15",
         "name": "Máy tính khoa học Flexio FX680VN",
-        "category": "others",
+        "category": "others",categogyID :3,
         "characteristic": "Có thiết kế nhỏ gọn, tiện lợi cho việc mang theo.\n\n -Màn hình LCD lớn, rõ nét, hiển thị nhiều dòng giúp người dùng dễ dàng quan sát và kiểm tra lại các phép tính.",
         "improvement": " Hỗ trợ các phép tính nâng cao. \n\n-Bộ nhớ lớn, giúp lưu trữ nhiều phép tính và dữ liệu.",
         "descript": "Máy tính khoa học Flexio FX680VN là một công cụ hữu ích, hỗ trợ đắc lực cho việc học tập và công việc, đáp ứng nhu cầu tính toán từ cơ bản đến nâng cao.",

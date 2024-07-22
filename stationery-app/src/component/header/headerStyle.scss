@@ -139,6 +139,8 @@
                             
                             .mini-cart{
                                 position: relative;
+                                float: left;
+
                                 a{
                                     display: flex;
                                     align-items: center;
@@ -163,9 +165,27 @@
                                         color: map-get($map: $light-theme-colors, $key: primary-color);
                                     }
                                 }
+                                
+
                                 //NOTE cart dropdown
                                 .top-cart-content{
                                     display: none;
+                                    position: absolute;
+                                    background-color: #f1f1f1;
+                                    min-width: 160px;
+                                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                    z-index: 1;
+                                    // .cart-content-item{
+                                    //     color: black;
+                                    //     padding: 12px 16px;
+                                    //     text-decoration: none;
+                                    //     display: block;
+                                    // }
+                                }
+                            }
+                            .mini-cart:hover{
+                                .top-cart-content{
+                                    display: block;
                                 }
                             }
 

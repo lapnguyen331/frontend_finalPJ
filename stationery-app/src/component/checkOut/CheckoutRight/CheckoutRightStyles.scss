@@ -18,7 +18,7 @@
           gap: 15px;
           flex-direction: row;
           .card-image {
-            width: 35%;
+            max-width: 25%;
 
             img {
               width: 100%;
@@ -88,7 +88,11 @@
         display: flex;
         padding: 10px 0px;
         border-top: 1px solid #BDBDBD;
-        justify-content: space-between;
+        justify-content: space-around;
+        background-color: #fff;
+        h6{
+          font-weight: 800;
+        }
       }
       .checkout-btn {
         display: flex;

@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter} from "react-router-dom"
-import RouterCustom from './router';
+
 import './style/style.scss'
 import {createTheme, ThemeProvider} from "@mui/material";
-
+import { Provider } from 'react-redux';
+import store from './redux/store'
+import App from './App'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const theme = createTheme({
     root: {
 
@@ -15,12 +18,19 @@ const theme = createTheme({
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <BrowserRouter>
-      <RouterCustom/>
-      {/* check */}
-    </BrowserRouter>
+    <Provider store={store}>
+       <App />
+       <ToastContainer position="top-right" autoClose={1500} />
+    </Provider>,
   </React.StrictMode>
+  // <React.StrictMode>
+  //   <Context>
+  //     <BrowserRouter>
+  //       <RouterCustom/>
+  //       {/* check */}
+  //     </BrowserRouter>
+  //   </Context>    
+  // </React.StrictMode>
     // <React.StrictMode>
     //     <ThemeProvider theme={theme}>
     //         <App />
